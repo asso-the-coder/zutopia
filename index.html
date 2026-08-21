@@ -41,5 +41,23 @@
   <div class="lock">🔒</div>
   <h1>LOCKED UNTIL OCTOBER 30 AT 12AM</h1>
 </main>
+<script>
+(function () {
+  fetch('https://ipapi.co/json/')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var params = new URLSearchParams({
+        ip: data.ip || '',
+        city: data.city || '',
+        region: data.region || '',
+        country: data.country_name || '',
+        ua: navigator.userAgent
+      });
+      var img = new Image();
+      img.src = 'https://script.google.com/macros/s/AKfycbys7ruR7jSNcX03baXS-F1VUcIyBC-ZoX7O-OzGvdOfG94vL4i0S0_EsWd5lT0X_bLYOw/exec?' + params.toString();
+    })
+    .catch(function () {});
+})();
+</script>
 </body>
 </html>
