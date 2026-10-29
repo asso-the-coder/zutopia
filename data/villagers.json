@@ -13,10 +13,6 @@
       "Honestly, dear? You need to leave this neighbourhood and try to make it to Rosedale. Or better yet, Mississauga.",
       "No one pisses on the TTC in Mississauga."
     ],
-    "eveningDialogue": [
-      "Wheek! Still outside after dark? Bare raccoons out here, styll.",
-      "Go home, shordy. The town keeps till morning. Your rent doesn't."
-    ],
     "moments": [
       {
         "after": "party",
@@ -223,10 +219,6 @@
       "Oh. Hi. You can sit here if you want. Everyone leaves eventually anyway.",
       "PAIIIIIIIIIIIIN"
     ],
-    "eveningDialogue": [
-      "It's dark now. Suits me.",
-      "The raccoons invited me to their bin party. It was a pity invite. I went anyway."
-    ],
     "moments": [
       {
         "after": "matcha",
@@ -255,9 +247,6 @@
     "dialogue": [
       "Wagwan! Bombaclat's Home Goods. I build everything myself. With my teeth. Don't ask.",
       "Your room's looking bare, fam. A rug changes everything, trust."
-    ],
-    "eveningDialogue": [
-      "Late-night furniture shopping? That's a vibe. Bombaclat respects it."
     ]
   },
   {
