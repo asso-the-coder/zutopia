@@ -1,0 +1,883 @@
+[
+  {
+    "id": "book-caraval",
+    "title": "Caraval",
+    "author": "Stephanie Garber",
+    "description": "Caraval, book 1",
+    "shelf": "read",
+    "rating": 4,
+    "paragraphs": [
+      "Scarlett has dreamed of seeing Caraval, a once-a-year magical game where the audience plays along. When the invitation finally comes, her sister Tella is taken by the game's mysterious master, Legend, and whoever finds her first wins. Nothing is quite what it seems, and Scarlett is warned not to get swept away."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-legendary",
+    "title": "Legendary",
+    "author": "Stephanie Garber",
+    "description": "Caraval, book 2",
+    "shelf": "read",
+    "rating": 5,
+    "paragraphs": [
+      "Tella owes a debt to a mysterious stranger, and the price is Legend's true name. To find it she has to win the next Caraval, played this time in the dazzling capital of an empire, where the stakes are her heart and her life."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-finale",
+    "title": "Finale",
+    "author": "Stephanie Garber",
+    "description": "Caraval, book 3",
+    "shelf": "read",
+    "rating": 3,
+    "paragraphs": [
+      "Two months after the last game, the Fates are free and the Meridian Empire is falling apart. Scarlett and Tella face their final game, and this time it isn't just a performance."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-spectacular",
+    "title": "Spectacular",
+    "author": "Stephanie Garber",
+    "description": "Caraval, a holiday novella",
+    "shelf": "read",
+    "rating": 3,
+    "paragraphs": [
+      "It's the eve of the Great Holiday Eve and snow is falling over the Meridian Empire. Scarlett plans a spectacular celebration for her sister while a little winter magic stirs up surprises. A cozy, illustrated return to the world of Caraval."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-once-upon-a-broken-heart",
+    "title": "Once Upon a Broken Heart",
+    "author": "Stephanie Garber",
+    "description": "Once Upon a Broken Heart, book 1",
+    "shelf": "read",
+    "rating": 3,
+    "paragraphs": [
+      "Heartbroken Evangeline Fox makes a deal with the Prince of Hearts, a charming and dangerous Fate, to stop her true love's wedding. The deal costs her three kisses of his choosing, and it pulls her into a magical North full of curses and old stories."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-ballad-of-never-after",
+    "title": "The Ballad of Never After",
+    "author": "Stephanie Garber",
+    "description": "Once Upon a Broken Heart, book 2",
+    "shelf": "read",
+    "rating": 5,
+    "paragraphs": [
+      "Evangeline, now caught up in the North's royal intrigue, discovers that her story has been written by others. She sets out to find the truth about an old curse with the help of the one person she shouldn't trust: Jacks, the Prince of Hearts."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-a-curse-for-true-love",
+    "title": "A Curse for True Love",
+    "author": "Stephanie Garber",
+    "description": "Once Upon a Broken Heart, book 3",
+    "shelf": "read",
+    "rating": 3,
+    "paragraphs": [
+      "Evangeline wakes married to a prince with no memory of what she's lost. Jacks will do anything to break the spell. The conclusion of the trilogy, where every story has a price."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-throne-of-glass",
+    "title": "Throne of Glass",
+    "author": "Sarah J. Maas",
+    "description": "Throne of Glass, book 1",
+    "shelf": "read",
+    "rating": 5,
+    "paragraphs": [
+      "Celaena Sardothien, the most feared assassin in the land, is pulled out of a death camp to compete for her freedom. If she defeats twenty-three killers, thieves, and warriors in the prince's tournament, she becomes the king's Champion. Something dark is killing the competitors one by one."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-crown-of-midnight",
+    "title": "Crown of Midnight",
+    "author": "Sarah J. Maas",
+    "description": "Throne of Glass, book 2",
+    "shelf": "read",
+    "rating": 4,
+    "paragraphs": [
+      "Celaena is now the King's Champion and must carry out his deadly orders, but she secretly spares her targets. As a rebellion grows and secrets come out at the glass castle, she has to choose who she really fights for."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-heir-of-fire",
+    "title": "Heir of Fire",
+    "author": "Sarah J. Maas",
+    "description": "Throne of Glass, book 3",
+    "shelf": "read",
+    "rating": 3,
+    "paragraphs": [
+      "Grieving and lost, Celaena travels to a faraway land to face her past and the power she has been hiding. A fierce Fae warrior trains her, while back home dark forces gather and new enemies take flight."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-queen-of-shadows",
+    "title": "Queen of Shadows",
+    "author": "Sarah J. Maas",
+    "description": "Throne of Glass, book 4",
+    "shelf": "read",
+    "rating": 4,
+    "paragraphs": [
+      "She returns to the city that broke her, no longer just an assassin but a queen ready to take back what is hers. Old friends and enemies meet again as she plans her revenge."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-fourth-wing",
+    "title": "Fourth Wing",
+    "author": "Rebecca Yarros",
+    "description": "The Empyrean, book 1",
+    "shelf": "read",
+    "rating": 4,
+    "paragraphs": [
+      "Violet Sorrengail was meant to be a scribe, but her mother, the general, orders her into the brutal college for dragon riders. Dragons don't bond with fragile humans, and other cadets would happily kill her. The most dangerous of them all is Xaden Riorson."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-from-blood-and-ash",
+    "title": "From Blood and Ash",
+    "author": "Jennifer L. Armentrout",
+    "description": "Blood and Ash, book 1",
+    "shelf": "read",
+    "rating": 4,
+    "paragraphs": [
+      "Poppy is the Maiden, chosen by the gods, veiled and forbidden to be touched or seen. When a handsome guard named Hawke is sworn to protect her, she begins to question everything she's been told about her kingdom and her destiny."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-cruel-prince",
+    "title": "The Cruel Prince",
+    "author": "Holly Black",
+    "description": "The Folk of the Air, book 1",
+    "shelf": "read",
+    "rating": 2,
+    "paragraphs": [
+      "Jude was stolen away to the High Court of Faerie as a child, a mortal among cruel and beautiful fae. Determined to win a place there, she clashes with the wicked Prince Cardan and is drawn into palace plots and betrayals."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-wicked-king",
+    "title": "The Wicked King",
+    "author": "Holly Black",
+    "description": "The Folk of the Air, book 2",
+    "shelf": "read",
+    "rating": 3,
+    "paragraphs": [
+      "Jude has bound the High King to her command, but holding power in Faerie is harder than seizing it. With enemies all around and a dangerous attraction she can't afford, she has to keep control for a year and a day."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-secret-history",
+    "title": "The Secret History",
+    "author": "Donna Tartt",
+    "description": "A standalone read.",
+    "shelf": "read",
+    "rating": 4,
+    "paragraphs": [
+      "A small group of brilliant, eccentric classics students at a New England college fall under the spell of their charismatic teacher. Told by an outsider who joins them, it is the story of how their search for beauty leads to murder, and what comes after."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-night-circus",
+    "title": "The Night Circus",
+    "author": "Erin Morgenstern",
+    "description": "A standalone read.",
+    "shelf": "read",
+    "rating": 4,
+    "paragraphs": [
+      "The circus arrives without warning and is only open at night. Behind its black-and-white tents, two young magicians, Celia and Marco, have been bound since childhood to a mysterious contest. They fall in love, even though only one of them can be left standing."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-a-good-girls-guide-to-murder",
+    "title": "A Good Girl's Guide to Murder",
+    "author": "Holly Jackson",
+    "description": "A Good Girl's Guide to Murder, book 1",
+    "shelf": "read",
+    "rating": 2,
+    "paragraphs": [
+      "For her school project, Pip reopens a closed local case: a girl's murder by her boyfriend, who later died himself. Pip isn't convinced he did it, and the deeper she digs, the more someone in town wants her to stop."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-maid",
+    "title": "The Maid",
+    "author": "Nita Prose",
+    "description": "Molly the Maid, book 1",
+    "shelf": "read",
+    "rating": 4,
+    "paragraphs": [
+      "Molly is a hotel maid who loves rules, order, and a perfectly made bed, though she often misreads people. When she finds a wealthy guest dead in his suite, she becomes the prime suspect and has to work out who her real friends are."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-sinners-condemned",
+    "title": "Sinners Condemned",
+    "author": "Somme Sketcher",
+    "description": "Sinners Anonymous, book 2",
+    "shelf": "read",
+    "paragraphs": [
+      "A red-haired stranger in a stolen dress wins a mob boss's watch in a bar bet and calls herself the luckiest girl in the world. Their game turns into a war and a dark romance."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-wishing-spell",
+    "title": "The Wishing Spell",
+    "author": "Chris Colfer",
+    "description": "The Land of Stories, book 1",
+    "shelf": "read",
+    "rating": 5,
+    "paragraphs": [
+      "Twins Alex and Conner Bailey fall through the pages of their grandmother's storybook into a world where fairy tales are real. To get home they must gather the items for a legendary Wishing Spell, while a fearsome Evil Queen hunts for it too."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-enchantress-returns",
+    "title": "The Enchantress Returns",
+    "author": "Chris Colfer",
+    "description": "The Land of Stories, book 2",
+    "shelf": "read",
+    "rating": 5,
+    "paragraphs": [
+      "A year after their first adventure, the twins learn that the Enchantress who cursed Sleeping Beauty is back and has kidnapped their mother. Alex and Conner race back into the Land of Stories to stop her."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-a-grimm-warning",
+    "title": "A Grimm Warning",
+    "author": "Chris Colfer",
+    "description": "The Land of Stories, book 3",
+    "shelf": "read",
+    "rating": 4,
+    "paragraphs": [
+      "Conner finds a two-hundred-year-old warning left by the Brothers Grimm and sets off across Europe to crack its code. Meanwhile Alex trains to be the next Fairy Godmother, and an army is gathering to invade the Land of Stories."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-beyond-the-kingdoms",
+    "title": "Beyond the Kingdoms",
+    "author": "Chris Colfer",
+    "description": "The Land of Stories, book 4",
+    "shelf": "read",
+    "rating": 3,
+    "paragraphs": [
+      "The Masked Man is loose with a magic potion that can bring him into any story ever written. The Bailey twins and a ragtag crew of fairy-tale friends chase him through classic books, from Neverland to Oz."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-keeper-of-the-lost-cities",
+    "title": "Keeper of the Lost Cities",
+    "author": "Shannon Messenger",
+    "description": "Keeper of the Lost Cities, book 1",
+    "shelf": "read",
+    "rating": 4,
+    "paragraphs": [
+      "Twelve-year-old Sophie has always been able to hear other people's thoughts. Then she meets Fitz, a boy who can do the same, and learns she isn't human at all. She is an elf, and her new world is full of secrets about who she really is."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-selection",
+    "title": "The Selection",
+    "author": "Kiera Cass",
+    "description": "The Selection, book 1",
+    "shelf": "read",
+    "rating": 5,
+    "paragraphs": [
+      "Thirty-five girls are chosen to compete for the heart of Prince Maxon and the crown. America Singer doesn't want to be one of them, since her heart belongs to someone back home. Then she gets to know the prince."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-harry-potter-and-the-philosophers-stone",
+    "title": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "description": "Harry Potter, book 1",
+    "shelf": "read",
+    "rating": 4,
+    "paragraphs": [
+      "On his eleventh birthday, Harry learns he's a wizard and is whisked away to Hogwarts School of Witchcraft and Wizardry. He makes his first real friends, Ron and Hermione, and discovers a mystery hidden in the castle."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-harry-potter-and-the-chamber-of-secrets",
+    "title": "Harry Potter and the Chamber of Secrets",
+    "author": "J.K. Rowling",
+    "description": "Harry Potter, book 2",
+    "shelf": "read",
+    "rating": 5,
+    "paragraphs": [
+      "Harry's second year is threatened by a warning from a house-elf, a flying car, and a mysterious voice in the walls. Students are being turned to stone, and the legend of the Chamber of Secrets may be true."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-harry-potter-and-the-prisoner-of-azkaban",
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "author": "J.K. Rowling",
+    "description": "Harry Potter, book 3",
+    "shelf": "read",
+    "rating": 4,
+    "paragraphs": [
+      "A dangerous prisoner has escaped the wizard prison Azkaban, and everyone thinks he's coming for Harry. With soul-chilling Dementors guarding Hogwarts, Harry learns surprising truths about his parents' past."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-harry-potter-and-the-goblet-of-fire",
+    "title": "Harry Potter and the Goblet of Fire",
+    "author": "J.K. Rowling",
+    "description": "Harry Potter, book 4",
+    "shelf": "read",
+    "rating": 5,
+    "paragraphs": [
+      "Hogwarts hosts the legendary Triwizard Tournament, and the magical Goblet of Fire unexpectedly chooses Harry as a fourth champion. He has to survive dragons, the deep lake, and a maze, while something darker is stirring."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-harry-potter-and-the-order-of-the-phoenix",
+    "title": "Harry Potter and the Order of the Phoenix",
+    "author": "J.K. Rowling",
+    "description": "Harry Potter, book 5",
+    "shelf": "read",
+    "rating": 4,
+    "paragraphs": [
+      "Voldemort is back, but the Ministry of Magic refuses to believe it, and a strict new teacher takes over Hogwarts. Harry and his friends secretly train other students to defend themselves."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-brave-new-world",
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "description": "A standalone read.",
+    "shelf": "read",
+    "rating": 4,
+    "paragraphs": [
+      "In a perfectly engineered future, people are made in hatcheries, sorted into castes, and kept happy with pleasure and a drug called soma. When a young man raised outside this world arrives, the comfortable society starts to look much stranger."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-great-gatsby",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "description": "A standalone read.",
+    "shelf": "read",
+    "rating": 2,
+    "paragraphs": [
+      "In the summer of 1922 on Long Island, Nick Carraway gets to know his mysterious neighbour Jay Gatsby, famous for his lavish parties. Gatsby is chasing a dream of winning back his lost love, Daisy, in a classic story of wealth and longing."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-death-of-mrs-westaway",
+    "title": "The Death of Mrs. Westaway",
+    "author": "Ruth Ware",
+    "description": "A standalone read.",
+    "shelf": "read",
+    "rating": 3,
+    "paragraphs": [
+      "Hal, a struggling tarot reader, gets a letter saying she has inherited money from a grandmother who can't be hers. Hoping her cold-reading skills will help her claim it, she goes to the funeral and finds an eerie family estate full of secrets."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-scorch-trials",
+    "title": "The Scorch Trials",
+    "author": "James Dashner",
+    "description": "The Maze Runner, book 2",
+    "shelf": "read",
+    "rating": 5,
+    "paragraphs": [
+      "Thomas and the Gladers thought escaping the Maze was the end. Instead they're sent across the Scorch, a burned-out wasteland, to survive one more trial."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-powerless",
+    "title": "Powerless",
+    "author": "Lauren Roberts",
+    "description": "The Powerless Trilogy, book 1",
+    "shelf": "reading",
+    "paragraphs": [
+      "In the kingdom of Ilya, only people with powers, the Elites, belong, and ordinary people are hunted. Paedyn is an Ordinary pretending to be special, and she ends up competing in deadly trials beside the prince trained to catch people like her."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-dune",
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "description": "Dune, book 1",
+    "shelf": "reading",
+    "paragraphs": [
+      "Young Paul Atreides moves with his noble family to Arrakis, a desert planet that is the only source of a precious spice. When betrayal strikes, Paul flees into the deep desert, where the Fremen people and his own strange destiny wait."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-six-of-crows",
+    "title": "Six of Crows",
+    "author": "Leigh Bardugo",
+    "description": "Six of Crows, book 1",
+    "shelf": "reading",
+    "paragraphs": [
+      "Criminal prodigy Kaz Brekker is offered a fortune for an impossible heist: break into an impenetrable fortress. He gathers a crew of six dangerous outcasts. If the heist doesn't kill them, they might kill each other."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-emily-wildes-encyclopaedia-of-faeries",
+    "title": "Emily Wilde's Encyclopaedia of Faeries",
+    "author": "Heather Fawcett",
+    "description": "Emily Wilde, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "A grumpy Cambridge professor travels to a remote northern village to finish the world's first encyclopaedia of faeries. Her charming, annoying rival turns up uninvited, and the fae turn out to be very real."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-daughter-of-the-moon-goddess",
+    "title": "Daughter of the Moon Goddess",
+    "author": "Sue Lynn Tan",
+    "description": "The Celestial Kingdom, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Xingyin grew up on the moon, hidden from the emperor who exiled her mother, the moon goddess Chang'e. When her magic reveals her, she flees and sets out on a quest to free her mother."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-housemaid",
+    "title": "The Housemaid",
+    "author": "Freida McFadden",
+    "description": "The Housemaid, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Millie takes a live-in job cleaning for a wealthy family and is given a tiny attic room that locks only from the outside. A twisty thriller where nobody in the house is who they seem."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-babel",
+    "title": "Babel",
+    "author": "R.F. Kuang",
+    "description": "A standalone read.",
+    "shelf": "to-read",
+    "paragraphs": [
+      "In 1830s Oxford, an orphan from Canton studies at the Royal Institute of Translation, where translation powers magic silver bars. As the empire's plans become clear, he has to decide which side he is on."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-wishing-game",
+    "title": "The Wishing Game",
+    "author": "Meg Shaffer",
+    "description": "A standalone read.",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Lucy, a teacher's aide, hopes to adopt a little boy. Her favourite childhood author invites four fans to his private island for a game whose prize is his newest book. A cozy, hopeful story about wishes and found family."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-dance-of-thieves",
+    "title": "Dance of Thieves",
+    "author": "Mary E. Pearson",
+    "description": "Dance of Thieves, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Kazi, a former street thief, is sent by her queen to investigate a powerful outlaw family. Jase has just become its leader. Their paths collide in a game of secrets and lies, and an unexpected romance."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-daisy-jones-the-six",
+    "title": "Daisy Jones & The Six",
+    "author": "Taylor Jenkins Reid",
+    "description": "A standalone read.",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Told like an oral history, it follows a 1970s rock band and the magnetic singer who joins it, all the way to their sudden breakup at the height of their fame."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-atlas-six",
+    "title": "The Atlas Six",
+    "author": "Olivie Blake",
+    "description": "The Atlas, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Every decade, six exceptional magicians are chosen as candidates for the secretive Alexandrian Society, keepers of lost knowledge. Only five will be initiated. The candidates are dangerously gifted and full of ambition."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-shadow-of-the-fox",
+    "title": "Shadow of the Fox",
+    "author": "Julie Kagawa",
+    "description": "Shadow of the Fox, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Yumeko, half kitsune and half human, is raised in a hidden temple guarding part of a scroll that can summon a wish-granting dragon. When the temple falls, she sets out with a mysterious samurai who is hunting the very scroll she carries."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-red-rising",
+    "title": "Red Rising",
+    "author": "Pierce Brown",
+    "description": "Red Rising Saga, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Darrow is a Red, a miner deep beneath the surface of Mars. When he learns how his people have been lied to, he infiltrates the ruling Golds to bring their society down from within."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-when-the-moon-hatched",
+    "title": "When the Moon Hatched",
+    "author": "Sarah A. Parker",
+    "description": "Moonfall, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "In a world whose moons are the bodies of dragons, Raeve is a rebel assassin who never gets caught, until a bounty hunter is hired to capture her. A sweeping romantic fantasy of dragons and secrets."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-frost",
+    "title": "Frost",
+    "author": "C.N. Crawford",
+    "description": "Frost and Nectar, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "On the worst birthday of her life, Ava swears off love forever, just as the dangerously handsome Seelie King comes to town looking for fae like her. Every generation he holds a competition for his queen, and he isn't looking for love either."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-coven",
+    "title": "The Coven",
+    "author": "Harper L. Woods",
+    "description": "Coven of Bones, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Willow is raised as her father's weapon against the witches' Coven that wronged their family. She enrolls at the secret Hollow's Grove University, where magic is taught freely and a dangerous headmaster takes an interest in her."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-scythe",
+    "title": "Scythe",
+    "author": "Neal Shusterman",
+    "description": "Arc of a Scythe, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "In a future without disease or death, only Scythes may end lives, to keep the population in check. Two teenagers become apprentices to a Scythe, and only one of them will get the job."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-book-of-azrael",
+    "title": "The Book of Azrael",
+    "author": "Amber V. Nicole",
+    "description": "Gods & Monsters, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Long ago, Dianna made a deal with a monster to save her sister. Now she is forced to hunt for an ancient book, and she ends up in an uneasy partnership with Samkiel, the World Ender, her most dangerous enemy."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-prison-healer",
+    "title": "The Prison Healer",
+    "author": "Lynette Noni",
+    "description": "The Prison Healer, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Kiva has spent ten years as the healer in a deadly prison. When the Rebel Queen is captured, Kiva must keep her alive through a Trial by Ordeal of air, fire, water, and earth, and keep her own secrets hidden."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-heartless",
+    "title": "Heartless",
+    "author": "Marissa Meyer",
+    "description": "A standalone read.",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Long before she was the Queen of Hearts in Wonderland, Cath was a girl who wanted to open a bakery. Then she met the mysterious court joker, Jest. This is how she became heartless."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-outlander",
+    "title": "Outlander",
+    "author": "Diana Gabaldon",
+    "description": "Outlander, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "In 1945, nurse Claire Randall touches a standing stone in Scotland and is swept back to 1743. She is caught between two times, two worlds, and two men, one of them a Highland warrior named Jamie Fraser."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-as-long-as-the-lemon-trees-grow",
+    "title": "As Long as the Lemon Trees Grow",
+    "author": "Zoulfa Katouh",
+    "description": "A standalone read.",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Salama was a pharmacy student before the war in Syria. Now she volunteers at a hospital in Homs, desperate to escape with her family before her sister-in-law gives birth. A moving story of love, loss, and hope."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-awakening",
+    "title": "The Awakening",
+    "author": "Caroline Peckham and Susanne Valenti",
+    "description": "Zodiac Academy, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Twins Tory and Darcy learn they are powerful Fae and lost royalty, and are sent to Zodiac Academy, where your star sign shapes your magic. Four arrogant heirs to the throne want them gone."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-legend",
+    "title": "Legend",
+    "author": "Marie Lu",
+    "description": "Legend, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "In a divided future America, June is a military prodigy and Day is the country's most wanted criminal. When June's brother is murdered and Day is the prime suspect, their worlds collide and they uncover what their country has been hiding."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-war-hour",
+    "title": "War Hour",
+    "author": "Lauren Loscig",
+    "description": "The Broken Trials, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "In Aloria, magic is earned through the deadly Trialing, which most people don't survive. Lysta is forced to take the trial against her will and becomes a weapon in a fight between courts."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-silent-patient",
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "description": "A standalone read.",
+    "shelf": "to-read",
+    "paragraphs": [
+      "A famous painter shoots her husband and never says another word. A psychotherapist becomes obsessed with getting her to talk, and finding out why."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-inheritance-games",
+    "title": "The Inheritance Games",
+    "author": "Jennifer Lynn Barnes",
+    "description": "The Inheritance Games, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Avery is a broke teenager who suddenly inherits a billionaire's fortune, though she never met him. To keep it, she must live in his puzzle-filled mansion with the family who expected to get it all."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-lightlark",
+    "title": "Lightlark",
+    "author": "Alex Aster",
+    "description": "Lightlark, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Every hundred years the island of Lightlark appears for the Centennial, a deadly game for the rulers of six cursed realms. Isla, a young ruler with a secret, enters to break her realm's curse."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-darkest-minds",
+    "title": "The Darkest Minds",
+    "author": "Alexandra Bracken",
+    "description": "The Darkest Minds, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "A mysterious disease killed most children, and the survivors developed powers and were sent to camps. Ruby escapes hers and joins a group of runaways searching for a safe place."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-above-the-sky",
+    "title": "Above the Sky",
+    "author": "J.W. Lynne",
+    "description": "Above the Sky, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Seven and her best friend Ten live in a peaceful world with strict rules, while a violent war rages above the sky. When they break those rules, everything they've been told starts to unravel."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-plier",
+    "title": "Plier",
+    "author": "Jane Washington",
+    "description": "Ironside Academy, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Ironside Academy is also the world's biggest reality TV show, and a very luxurious prison. Isobel is the only rare Sigma ever accepted, and her arrival shakes up the academy."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-an-ember-in-the-ashes",
+    "title": "An Ember in the Ashes",
+    "author": "Sabaa Tahir",
+    "description": "An Ember in the Ashes, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "In a brutal empire, Laia spies for the rebels to save her brother, while Elias, the academy's best soldier, secretly wants to escape. When their paths cross, they could change the empire."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-serpent-and-the-wings-of-night",
+    "title": "The Serpent and the Wings of Night",
+    "author": "Carissa Broadbent",
+    "description": "Crowns of Nyaxia, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Oraya is the human adopted daughter of a vampire king. To become more than prey, she enters the Kejari, a deadly tournament held by the goddess of death, and forms an alliance with a mysterious rival."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-belladonna",
+    "title": "Belladonna",
+    "author": "Adalyn Grace",
+    "description": "Belladonna, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Orphaned Signa has had a string of guardians, and every one of them has died. Sent to live with the eccentric Hawthorne family, she teams up with Death himself to find out who is poisoning the household."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-defy-the-night",
+    "title": "Defy the Night",
+    "author": "Brigid Kemmerer",
+    "description": "Defy the Night, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "A sickness is spreading through the kingdom and the medicine is rationed. Tessa sneaks out at night to bring medicine to the people who need it, but her rebellion brings her face to face with the ruthless prince."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-winners-curse",
+    "title": "The Winner's Curse",
+    "author": "Marie Rutkoski",
+    "description": "The Winner's Trilogy, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Kestrel, a general's daughter, impulsively buys a slave at auction. The romance that follows puts her loyalty and her empire at risk."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-these-hollow-vows",
+    "title": "These Hollow Vows",
+    "author": "Lexi Ryan",
+    "description": "These Hollow Vows, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Brie hates the fae, but when her sister is sold to the Unseelie king, she has to bargain with dangerous faerie courts to save her, between two princes she can't afford to trust."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-one-dark-window",
+    "title": "One Dark Window",
+    "author": "Rachel Gillig",
+    "description": "The Shepherd King, book 1",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Elspeth shares her mind with an ancient monster she calls the Nightmare. In a mist-locked kingdom where magic is forbidden, she joins a quest to gather twelve enchanted cards and cure the land."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-dare-to-lead",
+    "title": "Dare to Lead",
+    "author": "Brené Brown",
+    "description": "A standalone read.",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Brené Brown's guide to brave leadership, at work and in life. She explains that courage, vulnerability, and empathy are skills anyone can learn."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-the-compound-effect",
+    "title": "The Compound Effect",
+    "author": "Darren Hardy",
+    "description": "A standalone read.",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Small, everyday choices add up over time. Hardy explains how tiny, consistent habits grow into big changes in your work, health, and relationships."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-healthy-brain-happy-life",
+    "title": "Healthy Brain, Happy Life",
+    "author": "Wendy Suzuki",
+    "description": "A standalone read.",
+    "shelf": "to-read",
+    "paragraphs": [
+      "A neuroscientist realizes she has a great career and no life, so she starts exercising. She shares what science says about how movement changes your brain, mood, and memory."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  },
+  {
+    "id": "book-reclaim-your-heart",
+    "title": "Reclaim Your Heart",
+    "author": "Yasmin Mogahed",
+    "description": "A standalone read.",
+    "shelf": "to-read",
+    "paragraphs": [
+      "Short, reflective essays about breaking free from the same patterns of heartbreak and disappointment, and finding peace by holding on to what lasts."
+    ],
+    "attribution": "On Zuzu's Goodreads shelf. Short summary written for Zutopia."
+  }
+]

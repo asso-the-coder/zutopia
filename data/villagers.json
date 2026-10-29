@@ -1,0 +1,302 @@
+[
+  {
+    "id": "landlord",
+    "name": "Ms. Pumpkin",
+    "species": "guinea pig",
+    "spriteKey": "guinea-pig",
+    "areaId": "home-street",
+    "tileX": 30,
+    "tileY": 9,
+    "dialogue": [
+      "Wheek, tenant. Etfadaly ta3aly a3melek kobayet shay (plz say no, this is not a serious offer).",
+      "Also, rent's due. Still broke, ahlie?",
+      "Honestly, dear? You need to leave this neighbourhood and try to make it to Rosedale. Or better yet, Mississauga.",
+      "No one pisses on the TTC in Mississauga."
+    ],
+    "eveningDialogue": [
+      "Wheek! Still outside after dark? Bare raccoons out here, styll.",
+      "Go home, shordy. The town keeps till morning. Your rent doesn't."
+    ],
+    "moments": [
+      {
+        "after": "party",
+        "dialogue": [
+          "Wheek! What a party. I'm still full.",
+          "Your letter's framed on your wall at home, and it's in your mailbox too, dear."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "neighbour",
+    "name": "3arbagy",
+    "species": "raccoon",
+    "spriteKey": "raccoon",
+    "areaId": "home-street",
+    "tileX": 11,
+    "tileY": 10,
+    "dialogue": [
+      "Wys, spare a few pickles for your favourite neighbour?",
+      "Too broke to give me some money? Once a Scarborough girl, always a Scarborough girl.",
+      "I literally steal for a living. My cousin's the Wrestling Raccoon at the gym, so watch yourself."
+    ],
+    "moments": [
+      {
+        "after": "party",
+        "dialogue": [
+          "Best party ever. I only took ONE plate home. Okay, three.",
+          "If anyone asks, the leftovers were raccoon-proof."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "curator",
+    "name": "Jiji",
+    "species": "jiraffe",
+    "spriteKey": "jiraffe",
+    "areaId": "home-street",
+    "tileX": 16,
+    "tileY": 10,
+    "dialogue": [
+      "I'm cheesed cuz manz are asking why I'm Jiji the Jiraffe with a J. Like crodie, can we lowe manz???? Like damn.",
+      "Wys tho, let's hit Timz rn."
+    ],
+    "moments": [
+      {
+        "after": "first-donation",
+        "dialogue": [
+          "Newest exhibit is going crazy. Three visitors already. Two of them were me, but still.",
+          "Bring more. Mans is tryna fill the whole wall before Yorkville steals the idea."
+        ]
+      },
+      {
+        "after": "party",
+        "dialogue": [
+          "What a party! I've already started planning the exhibit about it.",
+          "It'll need a very tall frame. I know a guy. It's me."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "barista",
+    "name": "Koko",
+    "species": "koala",
+    "spriteKey": "koala",
+    "areaId": "market-strip",
+    "tileX": 3,
+    "tileY": 10,
+    "dialogue": [
+      "Ayy, welcome to Zuzu's Matchacha. Yorkville prices, Scarborough service.",
+      "Remember you're broke, so yk... acc try or wtv."
+    ],
+    "moments": [
+      {
+        "after": "matcha",
+        "dialogue": [
+          "Okay, you can actually whisk. Better foam than mine, styll. Say less.",
+          "Come back for another shift. The whisk is lowkey obsessed with you."
+        ]
+      },
+      {
+        "after": "party",
+        "dialogue": [
+          "Best party ever. I may have had three birthday matchas. For quality control.",
+          "The whisk is ready whenever you are."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gym-coach",
+    "name": "3am Hossam",
+    "species": "moose",
+    "spriteKey": "moose",
+    "areaId": "market-strip",
+    "tileX": 13,
+    "tileY": 10,
+    "dialogue": [
+      "Gotta learn to scrap, princess. Come in so you're able to work your way around Scarborough.",
+      "Bare bugs in my gym and not one of them pays membership. Pick a power-up and handle it."
+    ],
+    "moments": [
+      {
+        "after": "mma",
+        "dialogue": [
+          "Saw you in there. Win or lose, you didn't fold. Respect, shordy.",
+          "Next time keep your hands up. You were moving like Line 1 on a Sunday."
+        ]
+      },
+      {
+        "after": "party",
+        "dialogue": [
+          "What a party, champ! I'm still digesting. Training resumes tomorrow. Maybe the day after.",
+          "Those bugs won't fight themselves. Well, they might. Come check."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kbbq-host",
+    "name": "Momo",
+    "species": "monkey",
+    "spriteKey": "monkey",
+    "areaId": "market-strip",
+    "tileX": 27,
+    "tileY": 10,
+    "dialogue": [
+      "Wagwan shordy, come fill your food-obsessed stomach.",
+      "My big table's always ready for a celebration. You never know when one's coming, ahlie?"
+    ],
+    "moments": [
+      {
+        "after": "party",
+        "dialogue": [
+          "That was the best party my grill has ever seen!",
+          "Pop in anytime. The table's still set, and I'm cooking up something fun for later."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "shopkeeper",
+    "name": "Jojo",
+    "species": "jackal",
+    "spriteKey": "jackal",
+    "areaId": "don-hills",
+    "tileX": 17,
+    "tileY": 2,
+    "dialogue": [
+      "What's good? Shooters Drug Mart, inside Don Hills Mall. We got snacks, we got medicine, we got attitude.",
+      "Streetcar was late, so I opened late. If the TTC can do it, so can mans.",
+      "If a goose comes in, you didn't see me. Me and that goose got history, my word."
+    ],
+    "moments": [
+      {
+        "after": "party",
+        "dialogue": [
+          "Happy birthday again! I brought the hot sauce. Nobody was brave enough.",
+          "The goose wasn't invited. I checked twice."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "park-coach",
+    "name": "Coach Kanga",
+    "species": "kangaroo",
+    "spriteKey": "kangaroo",
+    "areaId": "high-park",
+    "tileX": 12,
+    "tileY": 12,
+    "dialogue": [
+      "If you're flexible enough to allow yourself to live in this 6ixBuzz highlight reel of a town, you'll be flexible enough for my gymnastics routines.",
+      "Yalla wareena shatartek."
+    ],
+    "moments": [
+      {
+        "after": "gymnastics",
+        "dialogue": [
+          "Okay, that routine was hard, I'm not even gonna lie. Even the strict judge purred.",
+          "Keep that up and you'll make the Olympic team. Or at least the Scarborough Town Centre food court team."
+        ]
+      },
+      {
+        "after": "party",
+        "dialogue": [
+          "Ten out of ten party. I stuck the landing on the dessert table.",
+          "The lawn's all yours whenever you want to tumble off all that food."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sohid",
+    "name": "Sohid",
+    "species": "basset hound",
+    "spriteKey": "basset-hound",
+    "areaId": "high-park",
+    "tileX": 7,
+    "tileY": 15,
+    "dialogue": [
+      "Oh. Hi. You can sit here if you want. Everyone leaves eventually anyway.",
+      "PAIIIIIIIIIIIIN"
+    ],
+    "eveningDialogue": [
+      "It's dark now. Suits me.",
+      "The raccoons invited me to their bin party. It was a pity invite. I went anyway."
+    ],
+    "moments": [
+      {
+        "after": "matcha",
+        "dialogue": [
+          "I heard you're making drinks now. Maybe one day I'll be worth a drink.",
+          "That was a joke. Sort of. Not really."
+        ]
+      },
+      {
+        "after": "party",
+        "dialogue": [
+          "That party was nice. I almost smiled. Don't tell anyone.",
+          "Happy birthday, Zu. I mean it, even if my face doesn't."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "furniture-keeper",
+    "name": "Bombaclat",
+    "species": "beaver",
+    "spriteKey": "beaver",
+    "areaId": "don-hills",
+    "tileX": 2,
+    "tileY": 2,
+    "dialogue": [
+      "Wagwan! Bombaclat's Home Goods. I build everything myself. With my teeth. Don't ask.",
+      "Your room's looking bare, fam. A rug changes everything, trust."
+    ],
+    "eveningDialogue": [
+      "Late-night furniture shopping? That's a vibe. Bombaclat respects it."
+    ]
+  },
+  {
+    "id": "clothes-keeper",
+    "name": "Hazel",
+    "species": "hedgehog",
+    "spriteKey": "hedgehog",
+    "areaId": "don-hills",
+    "tileX": 6,
+    "tileY": 2,
+    "dialogue": [
+      "Darling. Hazel's Threads. That sweater is iconic, but have you considered: a toque?",
+      "Fashion is a sport and you're in the playoffs, babe."
+    ]
+  },
+  {
+    "id": "anime-keeper",
+    "name": "Parmeet",
+    "species": "red panda",
+    "spriteKey": "red-panda",
+    "areaId": "don-hills",
+    "tileX": 13,
+    "tileY": 2,
+    "dialogue": [
+      "Yo. Parmeet's Anime Den. If you haven't watched Attack on Scarborough, we can't be friends. Kidding. Mostly.",
+      "Every poster in here is a masterpiece. No cap. Okay, one cap."
+    ]
+  },
+  {
+    "id": "salon-keeper",
+    "name": "Ramy",
+    "species": "rabbit",
+    "spriteKey": "rabbit",
+    "areaId": "don-hills",
+    "tileX": 1,
+    "tileY": 6,
+    "dialogue": [
+      "Welcome to Ramy's Salon. New hair, new eyes, new you. Same Zu, obviously.",
+      "Sit, sit. Everyone in this mall needs a trim, and Bombaclat chews hers. Don't tell her I said that."
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "timeZone": "America/Toronto",
+  "dayStartsAtHour": 7,
+  "nightStartsAtHour": 19,
+  "timing": {
+    "roundDurationMs": 30000,
+    "perfectWindowMs": 120,
+    "goodWindowMs": 250
+  },
+  "rewards": {
+    "completionPickles": 5,
+    "scorePerBonusPickles": 20
+  },
+  "partyRequirements": {
+    "donatedMemoryCount": 0,
+    "completedActivities": [
+      "matcha",
+      "mma",
+      "gymnastics"
+    ],
+    "pickleCost": 10
+  },
+  "farm": {
+    "scarbzRegrowHours": 3,
+    "ujiRipensAtHour": 6,
+    "robotPrice": 10000
+  },
+  "recreationFees": {
+    "mma": 16,
+    "gymnastics": 12,
+    "basketball": 10,
+    "typing": 6,
+    "math": 8
+  },
+  "creatorScores": {
+    "typingWpm": 79,
+    "mathSprint": 4,
+    "mathStreak": 4
+  }
+}

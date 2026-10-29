@@ -1,0 +1,70 @@
+{
+  "venue": "Seoul Food KBBQ",
+  "banner": "Happy Birthday, Zuzu!",
+  "invite": {
+    "notReady": [
+      "Go around and discover everything the town has to offer, dear. Then the party is waiting for you. Wheek!"
+    ],
+    "ready": [
+      "Wheek! Everything's ready. Everyone in town is waiting to celebrate you!"
+    ],
+    "started": [
+      "Wonderful! Everyone's waiting at Seoul Food KBBQ in Koreatown.",
+      "Go on ahead, dear. I'll be right behind you. Guinea pig legs are short."
+    ]
+  },
+  "dialogue": [
+    "SURPRISE! Everyone in town is here, and they saved you the best seat.",
+    "Momo fires up the grill. Happy birthday, Zuzu!",
+    "Try the food, and don't forget: there's a present with your name on it."
+  ],
+  "revisitDialogue": [
+    "Seoul Food KBBQ is back to business as usual. The grill's still hot, and there's always a seat for you.",
+    "The house special is grilling it yourself: halal belly strips, pickles only, and every tenth grill is on the house."
+  ],
+  "guests": [
+    {
+      "villagerId": "landlord",
+      "dialogue": [
+        "Happy birthday, dear! Rent: paid. Heart: full."
+      ]
+    }
+  ],
+  "foodInteractions": [
+    {
+      "id": "kbbq",
+      "name": "Birthday BBQ",
+      "description": "The grill sizzles away, surrounded by a whole parade of little side dishes. There's room for everyone. (Fun fact: the creator of this game doesn't know what any of it is called either. He just eats it and shuts up.)"
+    },
+    {
+      "id": "macarona-pane",
+      "name": "Macarona & Chicken Pané",
+      "description": "Tomato-sauce pasta and crispy breaded chicken. Of course we made room for this, too.",
+      "partyOnly": true
+    }
+  ],
+  "kbbqMenu": {
+    "freeEvery": 10,
+    "grill": {
+      "id": "grill-it-yourself",
+      "name": "Grill it yourself (halal belly strips)",
+      "price": 24,
+      "line": "Momo sets down a tray of raw halal belly and hands Zu the tongs. \"Your grill, your rules.\""
+    },
+    "cardPrize": "seoul-food-lantern"
+  },
+  "gift": {
+    "label": "A present for you",
+    "dialogue": [
+      "A little wrapped present with your name on it. Inside is a letter."
+    ]
+  },
+  "giftReminder": [
+    "Wait! Ms. Pumpkin points at the end of the table. There's still a present with your name on it."
+  ],
+  "farewell": [
+    "What a night. Everyone waves as you head back out into town.",
+    "Your letter is in your mailbox now, whenever you want to read it again.",
+    "Go ahead and enjoy Zutopia! There is lots to discover still. Also, life is about to get very real..."
+  ]
+}

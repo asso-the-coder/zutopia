@@ -1,0 +1,1015 @@
+{
+  "shift": {
+    "maxCustomers": 5,
+    "vipChancePercent": 80,
+    "maxTip": 3,
+    "vipTipMultiplier": 2,
+    "rush": {
+      "customers": 5,
+      "seconds": [
+        240,
+        300
+      ],
+      "multiplier": 2,
+      "everyShifts": 4,
+      "minScore": 70
+    }
+  },
+  "surprise": {
+    "chancePercent": 35,
+    "afterShifts": 2,
+    "line": "Make me something you would drink! Make sure it's pretty though.",
+    "stars": [
+      [
+        "Wow. You'd drink THIS? Bestie, are you okay? One star.",
+        "It looks like the Don River after a storm. One star, with love."
+      ],
+      [
+        "Two stars. It's giving 'made in the dark'. Pretty was the ONE thing I asked for.",
+        "Hmm. I can taste the vibes, and the vibes are mid-low. Two stars."
+      ],
+      [
+        "Three stars. Cute-ish! Like a Tuesday. A normal Tuesday.",
+        "Okay, I see the vision. The vision is a little blurry. Three stars."
+      ],
+      [
+        "Four stars! Ooh, so this is what you'd drink? I get it now.",
+        "This is lowkey adorable. Four stars, posting it."
+      ],
+      [
+        "FIVE STARS. It's so pretty I don't want to drink it. I'm drinking it.",
+        "Okay this is art. Gallery-worthy. Five stars, make me another one tomorrow."
+      ]
+    ]
+  },
+  "categories": [
+    {
+      "id": "size",
+      "label": "Cup",
+      "kind": "cup",
+      "choices": [
+        {
+          "id": "tall",
+          "label": "Tall",
+          "fill": 0.55
+        },
+        {
+          "id": "grande",
+          "label": "Grande",
+          "fill": 0.68
+        },
+        {
+          "id": "venti",
+          "label": "Venti",
+          "fill": 0.8
+        },
+        {
+          "id": "trenta",
+          "label": "Trenta",
+          "fill": 0.9
+        }
+      ]
+    },
+    {
+      "id": "ice",
+      "label": "Ice",
+      "kind": "ice",
+      "choices": [
+        {
+          "id": "none",
+          "label": "No ice",
+          "count": 0,
+          "weight": 3
+        },
+        {
+          "id": "ice-3",
+          "label": "Ice",
+          "count": 3,
+          "weight": 3
+        },
+        {
+          "id": "ice-6",
+          "label": "Ice",
+          "count": 6,
+          "weight": 1
+        },
+        {
+          "id": "ice-9",
+          "label": "Ice",
+          "count": 9,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "milk",
+      "label": "Milk",
+      "kind": "pour",
+      "choices": [
+        {
+          "id": "whole",
+          "label": "Whole",
+          "color": "#f4f0e6"
+        },
+        {
+          "id": "oat",
+          "label": "Oat",
+          "color": "#e8d4a8"
+        },
+        {
+          "id": "almond",
+          "label": "Almond",
+          "color": "#d8b48a"
+        },
+        {
+          "id": "lactose-free",
+          "label": "Lactose-free",
+          "color": "#c8b8f0"
+        },
+        {
+          "id": "hazelnut",
+          "label": "Hazelnut",
+          "color": "#f2d58c"
+        },
+        {
+          "id": "coconut",
+          "label": "Coconut",
+          "color": "#e8f4ec"
+        }
+      ]
+    },
+    {
+      "id": "syrup",
+      "label": "Syrup",
+      "kind": "squirt",
+      "choices": [
+        {
+          "id": "none",
+          "label": "No syrup"
+        },
+        {
+          "id": "vanilla",
+          "label": "Vanilla",
+          "color": "#f4e7b0"
+        },
+        {
+          "id": "raspberry",
+          "label": "Raspberry",
+          "color": "#e0607e"
+        },
+        {
+          "id": "brown-sugar",
+          "label": "Brown sugar",
+          "color": "#a8703a"
+        },
+        {
+          "id": "maple",
+          "label": "Maple",
+          "color": "#c98a2e"
+        },
+        {
+          "id": "lavender",
+          "label": "Lavender",
+          "color": "#b49ae0"
+        }
+      ]
+    },
+    {
+      "id": "foam",
+      "label": "Topping",
+      "kind": "topping",
+      "choices": [
+        {
+          "id": "none",
+          "label": "Nothing"
+        },
+        {
+          "id": "sweet-cream",
+          "label": "Sweet cream foam",
+          "color": "#fff6e0",
+          "action": "spread"
+        },
+        {
+          "id": "matcha-foam",
+          "label": "Matcha foam",
+          "color": "#b8dc8a",
+          "action": "spread"
+        },
+        {
+          "id": "whip",
+          "label": "Whipped cream",
+          "color": "#ffffff",
+          "action": "spread"
+        },
+        {
+          "id": "cat-art",
+          "label": "Latte Art",
+          "color": "#8a5a3a",
+          "action": "stamp",
+          "place": "top"
+        }
+      ]
+    },
+    {
+      "id": "extra",
+      "label": "Extra",
+      "kind": "topping",
+      "choices": [
+        {
+          "id": "none",
+          "label": "Nothing"
+        },
+        {
+          "id": "strawberry",
+          "label": "Strawberry drizzle",
+          "color": "#e0607e",
+          "action": "spread",
+          "thin": true
+        },
+        {
+          "id": "mango-jelly",
+          "label": "Mango jelly",
+          "color": "#f6a83a",
+          "action": "drop",
+          "count": 3,
+          "maxCount": 8
+        },
+        {
+          "id": "boba",
+          "label": "Boba",
+          "color": "#2b2438",
+          "action": "drop",
+          "count": 3,
+          "maxCount": 8
+        },
+        {
+          "id": "7abahan",
+          "label": "7abahan",
+          "color": "#86b03e",
+          "action": "drop",
+          "count": 1,
+          "maxCount": 3,
+          "place": "top",
+          "shape": "seed"
+        },
+        {
+          "id": "spit",
+          "label": "Spit",
+          "color": "#d8f0ff",
+          "action": "drop",
+          "count": 1,
+          "place": "top",
+          "maxCount": 4
+        },
+        {
+          "id": "cinnamon",
+          "label": "Cinnamon",
+          "color": "#9a5a2a",
+          "action": "spread",
+          "thin": true
+        },
+        {
+          "id": "2erfa",
+          "label": "2erfa",
+          "color": "#9a5428",
+          "action": "drop",
+          "count": 1,
+          "maxCount": 2,
+          "place": "top",
+          "shape": "stick"
+        }
+      ]
+    }
+  ],
+  "drinks": [
+    {
+      "id": "matcha-latte",
+      "name": "Matcha Latte",
+      "base": "matcha",
+      "crop": "scarbz",
+      "leaves": 3,
+      "price": 3,
+      "iced": false,
+      "waterC": 75,
+      "sift": false,
+      "whisk": true,
+      "recipe": {
+        "size": "grande",
+        "milk": "whole",
+        "syrup": "none",
+        "foam": "none",
+        "extra": "none"
+      },
+      "pumps": 0,
+      "vary": {
+        "size": [
+          "tall",
+          "grande",
+          "venti",
+          "trenta"
+        ],
+        "milk": [
+          "whole",
+          "oat",
+          "almond",
+          "lactose-free",
+          "hazelnut",
+          "coconut"
+        ],
+        "syrup": [
+          "none",
+          "vanilla",
+          "raspberry",
+          "brown-sugar",
+          "maple",
+          "lavender"
+        ],
+        "foam": [
+          "none",
+          "sweet-cream",
+          "matcha-foam",
+          "whip",
+          "cat-art"
+        ],
+        "extra": [
+          "none",
+          "cinnamon",
+          "strawberry",
+          "boba",
+          "mango-jelly",
+          "7abahan",
+          "2erfa"
+        ]
+      },
+      "varyPumps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "vipOnly": false
+    },
+    {
+      "id": "iced-matcha-latte",
+      "name": "Iced Matcha Latte",
+      "base": "matcha",
+      "crop": "scarbz",
+      "leaves": 3,
+      "price": 4,
+      "iced": true,
+      "waterC": 75,
+      "sift": false,
+      "whisk": true,
+      "recipe": {
+        "size": "grande",
+        "ice": "ice-6",
+        "milk": "oat",
+        "syrup": "none",
+        "foam": "none",
+        "extra": "none"
+      },
+      "pumps": 0,
+      "vary": {
+        "size": [
+          "tall",
+          "grande",
+          "venti",
+          "trenta"
+        ],
+        "ice": [
+          "none",
+          "ice-3",
+          "ice-6",
+          "ice-9"
+        ],
+        "milk": [
+          "whole",
+          "oat",
+          "almond",
+          "lactose-free",
+          "hazelnut",
+          "coconut"
+        ],
+        "syrup": [
+          "none",
+          "vanilla",
+          "raspberry",
+          "brown-sugar",
+          "maple",
+          "lavender"
+        ],
+        "foam": [
+          "none",
+          "sweet-cream",
+          "matcha-foam",
+          "whip"
+        ],
+        "extra": [
+          "none",
+          "boba",
+          "mango-jelly",
+          "strawberry",
+          "cinnamon"
+        ]
+      },
+      "varyPumps": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "vipOnly": false
+    },
+    {
+      "id": "zu-special",
+      "name": "Zu Special",
+      "base": "matcha",
+      "crop": "scarbz",
+      "leaves": 6,
+      "price": 5,
+      "iced": true,
+      "waterC": 75,
+      "sift": false,
+      "whisk": true,
+      "recipe": {
+        "size": "grande",
+        "ice": "ice-3",
+        "milk": "lactose-free",
+        "syrup": "raspberry",
+        "foam": "sweet-cream"
+      },
+      "pumps": 2,
+      "vary": {},
+      "varyPumps": [],
+      "vipOnly": false,
+      "shout": "I WANT ICED MATCHA GRANDE LIGHT ICE LACTOSE-FREE VANILLA SWEET CREAM COLD FOAM 2 PUMPS RASPBERRY SYRUP"
+    },
+    {
+      "id": "uji-ceremonial",
+      "name": "Uji Ceremonial",
+      "base": "matcha",
+      "crop": "uji",
+      "leaves": 3,
+      "price": 10,
+      "iced": false,
+      "waterC": 75,
+      "sift": true,
+      "whisk": true,
+      "recipe": {
+        "extra": "7abahan"
+      },
+      "pumps": 0,
+      "vary": {
+        "extra": [
+          "7abahan",
+          "mango-jelly",
+          "cinnamon",
+          "none",
+          "2erfa"
+        ]
+      },
+      "varyPumps": [],
+      "vipOnly": true
+    },
+    {
+      "id": "lack-toes",
+      "name": "Lack Toes",
+      "base": "coffee",
+      "leaves": 0,
+      "price": 3,
+      "iced": true,
+      "waterC": 92,
+      "sift": false,
+      "whisk": false,
+      "recipe": {
+        "size": "grande",
+        "ice": "ice-3",
+        "milk": "hazelnut"
+      },
+      "pumps": 0,
+      "vary": {},
+      "varyPumps": [],
+      "vipOnly": false,
+      "shout": "IM LACK TOES SO I WANT ICED COFFEE WITH OAT MILK SUB FOR HAZELNUT LESS ICE AND OAT MILK SUB FOR HAZELNUT"
+    },
+    {
+      "id": "scarborough-swirl",
+      "name": "Scarborough Swirl",
+      "base": "matcha",
+      "crop": "scarbz",
+      "leaves": 3,
+      "price": 2,
+      "iced": true,
+      "waterC": 75,
+      "sift": false,
+      "whisk": true,
+      "recipe": {
+        "size": "venti",
+        "ice": "ice-6",
+        "milk": "whole",
+        "syrup": "none",
+        "extra": "spit"
+      },
+      "pumps": 0,
+      "vary": {
+        "size": [
+          "grande",
+          "venti",
+          "trenta"
+        ],
+        "ice": [
+          "none",
+          "ice-3",
+          "ice-6",
+          "ice-9"
+        ],
+        "milk": [
+          "whole",
+          "oat",
+          "almond",
+          "lactose-free",
+          "hazelnut",
+          "coconut"
+        ],
+        "syrup": [
+          "none",
+          "vanilla",
+          "raspberry",
+          "brown-sugar",
+          "maple",
+          "lavender"
+        ]
+      },
+      "varyPumps": [
+        1,
+        2,
+        3
+      ],
+      "vipOnly": false
+    }
+  ],
+  "customers": [
+    {
+      "id": "zub",
+      "name": "Zub with a B",
+      "spriteKey": "zub",
+      "vip": true,
+      "strictness": 18,
+      "drinks": [
+        "uji-ceremonial"
+      ],
+      "lines": {
+        "order": [
+          "Hi, it's Zub. With a B. Not Zu. Zu is the knockoff, ahlie?",
+          "I'm a VIP, so like, make it perfect. I'll be filming for my close friends story.",
+          "Ugh, the line in here is so Scarborough. Anyway, here's my order, and don't mess it up, shordy."
+        ],
+        "stars": [
+          [
+            "One star. I'm literally calling Yorkville. This is a human rights violation.",
+            "Wow. I asked for a drink, not a crime scene. One star, my word."
+          ],
+          [
+            "Two stars and that's me being generous because I'm a giver.",
+            "It's giving… tap water from the Don River. Two stars."
+          ],
+          [
+            "Three stars. It's mid. Like you. Like this whole neighbourhood.",
+            "Mid. Three stars. I've had better matcha at a Petro-Canada."
+          ],
+          [
+            "Four stars. Don't let it go to your head, you're still from Scarborough.",
+            "Okay, it's actually good. Four stars. I'm only saying that because my camera's off."
+          ],
+          [
+            "Five stars… I hate that I like it. Tell no one, my word.",
+            "Fine. FIVE stars. Zu with no B could never. Wait, that's you. Ugh."
+          ]
+        ],
+        "walkout": [
+          "Out of matcha? For ME? I'm leaving a review so bad Google will cry."
+        ]
+      }
+    },
+    {
+      "id": "rocco",
+      "villagerId": "neighbour",
+      "vip": false,
+      "strictness": 0,
+      "lines": {
+        "order": [
+          "Wagwan shordy. I'll pay you back next week. Or the week after. My word.",
+          "Make it quick, the green bins are getting collected and I got plans."
+        ],
+        "stars": [
+          [
+            "Bro this tastes like the bin. And I would KNOW.",
+            "One star. Even I wouldn't dig that out the trash."
+          ],
+          [
+            "Two stars. I'm still drinking it though, I'm not wasteful.",
+            "Mid, styll. Two stars."
+          ],
+          [
+            "Three stars. It's cool. Like, raccoon-in-a-bin cool.",
+            "Not bad. Not good. Very Scarborough."
+          ],
+          [
+            "Four stars! Tip's on my tab. You'll see it never.",
+            "Ayy that's hard. Four stars."
+          ],
+          [
+            "FIVE STARS. I'd steal this. I might steal this.",
+            "Shordy can WHISK. Five stars, no cap."
+          ]
+        ],
+        "walkout": [
+          "No matcha? Say less, I'll check the bins out back."
+        ]
+      }
+    },
+    {
+      "id": "pumpkin",
+      "villagerId": "landlord",
+      "vip": false,
+      "strictness": 4,
+      "lines": {
+        "order": [
+          "Wheek. I'll take my drink and my rent cheque, dear.",
+          "Make it nice. I know where you live. I own where you live."
+        ],
+        "stars": [
+          [
+            "One star. Rent just went up, dear.",
+            "Wheek. This is why you're not in Yorkville."
+          ],
+          [
+            "Two stars. Rent is still due, ahlie.",
+            "Hm. Two stars and a small fee for my trouble."
+          ],
+          [
+            "Three stars. Acceptable, like your unit.",
+            "Fine. Like a basement apartment. Three stars."
+          ],
+          [
+            "Four stars. I won't raise your rent… this month.",
+            "Lovely, dear. Four stars."
+          ],
+          [
+            "Five stars! Maybe you can afford Mississauga after all.",
+            "Wheek! Perfect. I'll tell all my other tenants."
+          ]
+        ],
+        "walkout": [
+          "No matcha? Wheek. I'll add it to your rent."
+        ]
+      }
+    },
+    {
+      "id": "jiji",
+      "villagerId": "curator",
+      "vip": false,
+      "strictness": 2,
+      "lines": {
+        "order": [
+          "Can you make it tall? I'm kidding. Unless…",
+          "Hurry, fam, I left the museum open and 3arbagy's been eyeing the frames."
+        ],
+        "stars": [
+          [
+            "One star. I'm putting this in the museum as a warning.",
+            "Mans got cheesed. One star."
+          ],
+          [
+            "Two stars. A low point. And I'm very tall, so I'd know.",
+            "Two stars, styll."
+          ],
+          [
+            "Three stars. Hanging it in the hallway, not the main gallery.",
+            "It's alright. Three stars."
+          ],
+          [
+            "Four stars! Exhibit-worthy, almost.",
+            "Ayy, that's good. Four stars."
+          ],
+          [
+            "Five stars. This goes on the top shelf. Only I can reach it.",
+            "A masterpiece. Five stars, my word."
+          ]
+        ],
+        "walkout": [
+          "No matcha? I'll go stare at memories instead."
+        ]
+      }
+    },
+    {
+      "id": "coach-moose",
+      "villagerId": "gym-coach",
+      "vip": false,
+      "strictness": 6,
+      "lines": {
+        "order": [
+          "Pre-workout, princess. Make it strong enough to scrap.",
+          "Hands up, whisk fast. This is cardio for you."
+        ],
+        "stars": [
+          [
+            "One star. You whisk like you fight. Badly.",
+            "You folded, shordy. One star."
+          ],
+          [
+            "Two stars. Needs more training.",
+            "Weak. Like your jab. Two stars."
+          ],
+          [
+            "Three stars. You survived the round.",
+            "Decent. You'd make it to Kennedy Station alive. Three stars."
+          ],
+          [
+            "Four stars! Now THAT'S a scrap-ready drink.",
+            "Good form. Four stars."
+          ],
+          [
+            "Five stars. Champion energy. You can work your way around Scarborough now.",
+            "PERFECT. Even my brother couldn't."
+          ]
+        ],
+        "walkout": [
+          "No matcha? I'm doing burpees out of spite."
+        ]
+      }
+    },
+    {
+      "id": "momo",
+      "villagerId": "kbbq-host",
+      "vip": false,
+      "strictness": 3,
+      "lines": {
+        "order": [
+          "Wagwan! Make it fast, the grill's on and so is my temper.",
+          "Something to wash down all that meat, please. No cap."
+        ],
+        "stars": [
+          [
+            "One star. I'd rather drink the grill grease.",
+            "Ya3. One star."
+          ],
+          [
+            "Two stars. Overcooked, like my last customer's brisket.",
+            "Two stars, ahlie."
+          ],
+          [
+            "Three stars. Like a side dish: free but forgettable.",
+            "It's fine. Three stars."
+          ],
+          [
+            "Four stars! Goes with KBBQ. Big respect.",
+            "That's good, styll. Four stars."
+          ],
+          [
+            "Five stars! Best in the 6ix, and I would know.",
+            "Perfect! I'm putting it on my menu. Don't sue me."
+          ]
+        ],
+        "walkout": [
+          "No matcha? I'll go grill my feelings instead. It's a Tuesday."
+        ]
+      }
+    },
+    {
+      "id": "jojo",
+      "villagerId": "shopkeeper",
+      "vip": false,
+      "strictness": 1,
+      "lines": {
+        "order": [
+          "Streetcar was late so I'm late, so make it quick, ahlie?",
+          "If a goose comes in, hide me. Then make my drink."
+        ],
+        "stars": [
+          [
+            "One star. Worse than a scratch ticket and those never win.",
+            "Mans got finessed. One star."
+          ],
+          [
+            "Two stars. Like the TTC: it got there, barely.",
+            "Two stars, my word."
+          ],
+          [
+            "Three stars. Corner-store quality. That's a compliment from me.",
+            "It's cool. Three stars."
+          ],
+          [
+            "Four stars! I'd sell this. For triple.",
+            "Ayy. Four stars."
+          ],
+          [
+            "Five stars! Faster than the 501 and twice as smooth.",
+            "Shordy cooked. Five stars."
+          ]
+        ],
+        "walkout": [
+          "No matcha? Classic. I'll buy a slushie from myself."
+        ]
+      }
+    },
+    {
+      "id": "coach-kanga",
+      "villagerId": "park-coach",
+      "vip": false,
+      "strictness": 5,
+      "lines": {
+        "order": [
+          "Hop to it! I've got a class at noon.",
+          "Stick the landing on this one, shordy."
+        ],
+        "stars": [
+          [
+            "One star. You fell off the beam.",
+            "Big wobble. One star."
+          ],
+          [
+            "Two stars. The cat judges are booing.",
+            "Two stars. Stretch first next time."
+          ],
+          [
+            "Three stars. Clean, but no difficulty points.",
+            "Solid. Three stars."
+          ],
+          [
+            "Four stars! Nice routine.",
+            "Great form. Four stars."
+          ],
+          [
+            "Five stars! Perfect ten! I mean five!",
+            "Olympic-level whisk. Five stars."
+          ]
+        ],
+        "walkout": [
+          "No matcha? I'm hopping to Tim's."
+        ]
+      }
+    },
+    {
+      "id": "sohid",
+      "villagerId": "sohid",
+      "vip": false,
+      "strictness": 0,
+      "lines": {
+        "order": [
+          "Hi. Whatever's fine. Nothing matters anyway.",
+          "One drink, please. To fill the emptiness. It won't."
+        ],
+        "stars": [
+          [
+            "One star. It's okay. I deserve this.",
+            "It tastes like my life. One star."
+          ],
+          [
+            "Two stars. Like my chances of happiness.",
+            "Two stars. Even the matcha left me."
+          ],
+          [
+            "Three stars. It's fine. Everything's just fine.",
+            "Three stars. It made me feel almost nothing. That's progress."
+          ],
+          [
+            "Four stars. For a second, I felt something. It passed.",
+            "Four stars. Don't tell anyone I smiled."
+          ],
+          [
+            "Five stars. It's perfect. Now I'm sad it's over.",
+            "Five stars. Best thing that's happened to me. That's sad, right?"
+          ]
+        ],
+        "walkout": [
+          "No matcha. Of course. Of course there isn't."
+        ]
+      }
+    },
+    {
+      "id": "koko",
+      "villagerId": "barista",
+      "vip": false,
+      "strictness": 8,
+      "lines": {
+        "order": [
+          "Day off, so I'm the customer now. Let's see what you got.",
+          "I'm watching your whisk technique, ahlie."
+        ],
+        "stars": [
+          [
+            "One star. You're fired. From my heart.",
+            "I've trained you for nothing. One star."
+          ],
+          [
+            "Two stars. Certified wasteyute foam.",
+            "Two stars, styll."
+          ],
+          [
+            "Three stars. Customer-acceptable. Not barista-acceptable.",
+            "Three stars. Keep practising."
+          ],
+          [
+            "Four stars! Okay, I taught you well.",
+            "Ooh, nice foam. Four stars."
+          ],
+          [
+            "Five stars. Better than mine. Say less.",
+            "Perfect. I'm taking a longer break now."
+          ]
+        ],
+        "walkout": [
+          "No matcha? On MY day off? I'll pretend I didn't see that."
+        ]
+      }
+    }
+  ],
+  "straws": [
+    {
+      "id": "pink-stripe",
+      "label": "Pink stripe",
+      "color": "#ffffff",
+      "stripe": "#e0607e",
+      "wide": false,
+      "goesWith": [
+        "raspberry",
+        "strawberry",
+        "sweet-cream",
+        "cat-art",
+        "lactose-free"
+      ]
+    },
+    {
+      "id": "matcha-green",
+      "label": "Matcha green",
+      "color": "#7fb24a",
+      "stripe": "#c8e6a0",
+      "wide": false,
+      "goesWith": [
+        "matcha-foam",
+        "whole",
+        "oat"
+      ]
+    },
+    {
+      "id": "lavender",
+      "label": "Lavender",
+      "color": "#b49ae0",
+      "wide": false,
+      "goesWith": [
+        "lavender",
+        "almond",
+        "vanilla"
+      ]
+    },
+    {
+      "id": "caramel",
+      "label": "Caramel",
+      "color": "#c98a2e",
+      "stripe": "#f4e7b0",
+      "wide": false,
+      "goesWith": [
+        "brown-sugar",
+        "maple",
+        "hazelnut",
+        "cinnamon",
+        "coffee",
+        "2erfa"
+      ]
+    },
+    {
+      "id": "emo-black",
+      "label": "Emo black",
+      "color": "#2b2438",
+      "stripe": "#8a7a9a",
+      "wide": false,
+      "goesWith": [
+        "vip",
+        "spit"
+      ]
+    },
+    {
+      "id": "cloud-white",
+      "label": "Cloud white",
+      "color": "#f4f8ff",
+      "wide": false,
+      "goesWith": [
+        "whip",
+        "coconut",
+        "7abahan"
+      ]
+    },
+    {
+      "id": "wide-boba",
+      "label": "Wide boba straw",
+      "color": "#f6a83a",
+      "stripe": "#ffffff",
+      "wide": true,
+      "goesWith": [
+        "boba",
+        "mango-jelly"
+      ]
+    }
+  ]
+}

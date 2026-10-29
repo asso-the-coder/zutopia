@@ -1,0 +1,2681 @@
+{
+  "sets": [
+    {
+      "id": "cozy",
+      "name": "Cozy Cottage"
+    },
+    {
+      "id": "matcha",
+      "name": "Matcha Café"
+    },
+    {
+      "id": "condo",
+      "name": "Toronto Condo"
+    },
+    {
+      "id": "cat",
+      "name": "Cat Lover"
+    },
+    {
+      "id": "otaku",
+      "name": "Otaku Den"
+    }
+  ],
+  "shops": [
+    {
+      "id": "furniture",
+      "name": "Bombaclat's Home Goods",
+      "keeperId": "furniture-keeper",
+      "greeting": [
+        "Wagwan, welcome to Bombaclat's Home Goods! Fresh stock every day, built with my own two teeth.",
+        "New furniture arrives every morning. Come back tomorrow, the shelf changes, ahlie."
+      ],
+      "thanks": [
+        "Sold! Dam, that's a good choice.",
+        "Pleasure doing business, fam. Decorate with F at home!",
+        "That piece is gonna slap in your room."
+      ],
+      "dailySlots": 8
+    },
+    {
+      "id": "threads",
+      "name": "Hazel's Threads",
+      "keeperId": "clothes-keeper",
+      "greeting": [
+        "Welcome to Hazel's Threads, darling. Everything here is a serve.",
+        "New looks every day! Try it on in your wardrobe at home."
+      ],
+      "thanks": [
+        "Yes, it's giving. Put it on at your wardrobe!",
+        "A serve. An absolute serve.",
+        "Your outfit just got a glow-up, darling."
+      ],
+      "dailySlots": 4
+    },
+    {
+      "id": "anime",
+      "name": "Parmeet's Anime Den",
+      "keeperId": "anime-keeper",
+      "greeting": [
+        "Irasshaimase! Uh, I mean, welcome to Parmeet's Anime Den, fam.",
+        "New merch drops daily. Posters, plushies, and absolutely zero spoilers."
+      ],
+      "thanks": [
+        "Nice. Your room's power level is rising.",
+        "Sugoi! Hang it with F at home.",
+        "That's a certified banger purchase, no cap."
+      ],
+      "dailySlots": 6
+    },
+    {
+      "id": "snacks",
+      "name": "Shooters Drug Mart",
+      "keeperId": "shopkeeper",
+      "greeting": [
+        "What's good? Shooters Drug Mart. Snacks make you walk faster. That's science, don't check.",
+        "Chips, candy, granola bars. Eat 'em from your bag with I. Medicine's at The Well, round the side."
+      ],
+      "thanks": [
+        "Enjoy, fam. Press I to eat it.",
+        "Good choice. Don't share with 3arbagy.",
+        "Snack secured. Zoom zoom."
+      ],
+      "dailySlots": 0
+    },
+    {
+      "id": "well",
+      "name": "The Well. Get it? Lol i'm acc so creative",
+      "keeperId": "shopkeeper",
+      "greeting": [
+        "The Well, Shooters' pharmacy corner. Pricey, but you'll feel quick and sharp for two hours.",
+        "NyQuil goes straight to the farm squirrels. Sleepy squirrels, safe matcha."
+      ],
+      "thanks": [
+        "Feel better, fam. Press I to take it.",
+        "Hydrate. Seriously.",
+        "That's the good stuff. Don't mix it with matcha. Kidding. Probably."
+      ],
+      "dailySlots": 0
+    },
+    {
+      "id": "salon",
+      "name": "Ramy's Salon",
+      "keeperId": "salon-keeper",
+      "greeting": [
+        "Welcome to Ramy's Salon. Hair, colour, eyes: pick a look and it's on before you blink.",
+        "Every change is paid each time, so choose with your heart. Or your wallet."
+      ],
+      "thanks": [
+        "Stunning. I'm a genius. You're welcome.",
+        "Mirror, mirror: it's you. Obviously.",
+        "Go show the whole mall."
+      ],
+      "dailySlots": 0
+    }
+  ],
+  "items": [
+    {
+      "id": "cozy-bed",
+      "name": "Cozy bed",
+      "kind": "furniture",
+      "price": 60,
+      "shop": "furniture",
+      "set": "cozy",
+      "art": "cozy-bed",
+      "description": "A puffy quilt and two pillows. Napping is self-care.",
+      "widthTiles": 2,
+      "heightTiles": 2,
+      "use": "lines",
+      "lines": [
+        "Zu flops onto the bed. Five more minutes. Okay, ten.",
+        "The quilt smells like matcha and fabric softener. Peak.",
+        "Zu stares at the ceiling and thinks about cats."
+      ],
+      "thenLine": "Zu starts making her signature weird noises. Which one this time? Only Allah knows... she may even invent a new one this time."
+    },
+    {
+      "id": "cozy-armchair",
+      "name": "Cozy armchair",
+      "kind": "furniture",
+      "price": 30,
+      "shop": "furniture",
+      "set": "cozy",
+      "art": "cozy-armchair",
+      "description": "The reading chair. It knows all your secrets.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "use": "lines",
+      "lines": [
+        "Zu sinks into the armchair. Somebody bring her a book and a matcha."
+      ]
+    },
+    {
+      "id": "floor-lamp",
+      "name": "Floor lamp",
+      "kind": "furniture",
+      "price": 25,
+      "shop": "furniture",
+      "set": "cozy",
+      "art": "floor-lamp",
+      "description": "A warm lamp that switches itself on when it gets dark.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "glow": true
+    },
+    {
+      "id": "seoul-food-lantern",
+      "name": "Seoul Food lantern",
+      "kind": "furniture",
+      "price": 0,
+      "art": "seoul-food-lantern",
+      "description": "Momo's thank-you for a full stamp card: one of the restaurant's own paper lanterns.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "glow": true,
+      "use": "lines",
+      "lines": [
+        "The lantern glows like the KBBQ at closing time. Zu can almost smell the grill.",
+        "Ten meals for this lantern. Zu regrets nothing.",
+        "Zu bows to the lantern. Momo would approve."
+      ]
+    },
+    {
+      "id": "wooden-table",
+      "name": "Wooden table",
+      "kind": "furniture",
+      "price": 35,
+      "shop": "furniture",
+      "set": "cozy",
+      "art": "wooden-table",
+      "description": "A sturdy table with a tiny vase of flowers.",
+      "widthTiles": 2,
+      "heightTiles": 1
+    },
+    {
+      "id": "cozy-dresser",
+      "name": "Cozy dresser",
+      "kind": "furniture",
+      "price": 45,
+      "shop": "furniture",
+      "set": "cozy",
+      "art": "cozy-dresser",
+      "description": "Three drawers of sweaters. Well, mostly sweaters.",
+      "widthTiles": 2,
+      "heightTiles": 1,
+      "use": "lines",
+      "lines": [
+        "Every drawer is full of sweaters. Zu regrets nothing."
+      ]
+    },
+    {
+      "id": "round-rug",
+      "name": "Round rug",
+      "kind": "rug",
+      "price": 25,
+      "shop": "furniture",
+      "set": "cozy",
+      "art": "round-rug",
+      "description": "A soft pink rug. Furniture can sit on it.",
+      "widthTiles": 2,
+      "heightTiles": 2
+    },
+    {
+      "id": "wall-clock",
+      "name": "Wall clock",
+      "kind": "wall",
+      "price": 20,
+      "shop": "furniture",
+      "set": "cozy",
+      "art": "wall-clock",
+      "description": "Tick, tock. Always a little bit late, like the TTC.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "use": "lines",
+      "lines": [
+        "The clock says it is time for matcha. It always says that."
+      ]
+    },
+    {
+      "id": "cottage-window",
+      "name": "Cottage window",
+      "kind": "wall",
+      "price": 30,
+      "shop": "furniture",
+      "set": "cozy",
+      "art": "cottage-window",
+      "description": "A window with pink curtains. The view is mostly vibes.",
+      "widthTiles": 2,
+      "heightTiles": 1
+    },
+    {
+      "id": "cream-stripe-wall",
+      "name": "Cream stripe wallpaper",
+      "kind": "wallpaper",
+      "price": 40,
+      "shop": "furniture",
+      "set": "cozy",
+      "art": "cream-stripe-wall",
+      "description": "Soft cream stripes. Classic.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "oak-floor",
+      "name": "Oak floor",
+      "kind": "floor",
+      "price": 40,
+      "shop": "furniture",
+      "set": "cozy",
+      "art": "oak-floor",
+      "description": "Warm wooden planks.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "wood-panel-wall",
+      "name": "Wood panel wallpaper",
+      "kind": "wallpaper",
+      "price": 45,
+      "shop": "furniture",
+      "set": "cozy",
+      "art": "wood-panel-wall",
+      "description": "Cabin-in-Muskoka energy, without the mosquitoes.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "cafe-table",
+      "name": "Café table",
+      "kind": "furniture",
+      "price": 30,
+      "shop": "furniture",
+      "set": "matcha",
+      "art": "cafe-table",
+      "description": "A little round table with a matcha on it.",
+      "widthTiles": 1,
+      "heightTiles": 1
+    },
+    {
+      "id": "cafe-chair",
+      "name": "Café chair",
+      "kind": "furniture",
+      "price": 20,
+      "shop": "furniture",
+      "set": "matcha",
+      "art": "cafe-chair",
+      "description": "Matcha-green and only slightly wobbly.",
+      "widthTiles": 1,
+      "heightTiles": 1
+    },
+    {
+      "id": "matcha-bar-cart",
+      "name": "Matcha bar cart",
+      "kind": "furniture",
+      "price": 55,
+      "shop": "furniture",
+      "set": "matcha",
+      "art": "matcha-bar-cart",
+      "description": "A bowl, a whisk, and a tin of Uji. Home barista era.",
+      "widthTiles": 2,
+      "heightTiles": 1,
+      "use": "lines",
+      "lines": [
+        "Zu whisks a matcha at home. Fifteen whisks, no customers, no stress.",
+        "The tin says Uji. Zub would approve."
+      ]
+    },
+    {
+      "id": "bamboo-planter",
+      "name": "Bamboo planter",
+      "kind": "furniture",
+      "price": 25,
+      "shop": "furniture",
+      "set": "matcha",
+      "art": "bamboo-planter",
+      "description": "Lucky bamboo in a white pot.",
+      "widthTiles": 1,
+      "heightTiles": 1
+    },
+    {
+      "id": "matcha-mug",
+      "name": "Giant matcha mug",
+      "kind": "furniture",
+      "price": 35,
+      "shop": "furniture",
+      "set": "matcha",
+      "art": "matcha-mug",
+      "description": "A matcha mug the size of a small cat. Decor, not a serving.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "use": "lines",
+      "lines": [
+        "It is decorative. Zu sips it anyway. Still warm somehow."
+      ]
+    },
+    {
+      "id": "chalkboard-menu",
+      "name": "Chalkboard menu",
+      "kind": "wall",
+      "price": 30,
+      "shop": "furniture",
+      "set": "matcha",
+      "art": "chalkboard-menu",
+      "description": "Today's specials: matcha, matcha, and more matcha.",
+      "widthTiles": 2,
+      "heightTiles": 1,
+      "use": "lines",
+      "lines": [
+        "The menu reads: MATCHA LATTE · UJI · ZU SPECIAL · (no coffee, ew)"
+      ]
+    },
+    {
+      "id": "matcha-wall",
+      "name": "Matcha wallpaper",
+      "kind": "wallpaper",
+      "price": 45,
+      "shop": "furniture",
+      "set": "matcha",
+      "art": "matcha-wall",
+      "description": "Calming green, like a good whisk.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "tatami-floor",
+      "name": "Tatami floor",
+      "kind": "floor",
+      "price": 45,
+      "shop": "furniture",
+      "set": "matcha",
+      "art": "tatami-floor",
+      "description": "Woven tatami mats. Shoes off!",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "modern-sofa",
+      "name": "Modern sofa",
+      "kind": "furniture",
+      "price": 70,
+      "shop": "furniture",
+      "set": "condo",
+      "art": "modern-sofa",
+      "description": "A slate-blue sofa from a condo showroom on King West.",
+      "widthTiles": 2,
+      "heightTiles": 1,
+      "use": "lines",
+      "lines": [
+        "Zu sits on the sofa and scrolls. Rent in this city is crazy, ahlie."
+      ]
+    },
+    {
+      "id": "flat-tv",
+      "name": "Flat-screen TV",
+      "kind": "furniture",
+      "price": 80,
+      "shop": "furniture",
+      "set": "condo",
+      "art": "flat-tv",
+      "description": "Big screen, bigger opinions.",
+      "widthTiles": 2,
+      "heightTiles": 1,
+      "use": "lines",
+      "lines": [
+        "Channel 6: the Raptors are up by two. Zu screams anyway.",
+        "Channel 9: a cooking show about Egyptian macarona. Zu takes notes.",
+        "Channel 12: a raccoon on the news stole a whole pizza. Legend.",
+        "Channel 3: it is just geese. Hissing. For an hour."
+      ]
+    },
+    {
+      "id": "glass-coffee-table",
+      "name": "Glass coffee table",
+      "kind": "furniture",
+      "price": 40,
+      "shop": "furniture",
+      "set": "condo",
+      "art": "glass-coffee-table",
+      "description": "Very modern. Fingerprints guaranteed.",
+      "widthTiles": 2,
+      "heightTiles": 1
+    },
+    {
+      "id": "arc-lamp",
+      "name": "Arc lamp",
+      "kind": "furniture",
+      "price": 35,
+      "shop": "furniture",
+      "set": "condo",
+      "art": "arc-lamp",
+      "description": "A swoopy lamp that leans over the couch.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "glow": true
+    },
+    {
+      "id": "cn-tower-model",
+      "name": "CN Tower model",
+      "kind": "furniture",
+      "price": 50,
+      "shop": "furniture",
+      "set": "condo",
+      "art": "cn-tower-model",
+      "description": "A tiny CN Tower. The real one is taller.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "use": "lines",
+      "lines": [
+        "553 metres in real life. 30 centimetres here. Still iconic."
+      ]
+    },
+    {
+      "id": "green-bin",
+      "name": "Green bin",
+      "kind": "furniture",
+      "price": 15,
+      "shop": "furniture",
+      "set": "condo",
+      "art": "green-bin",
+      "description": "A Toronto green bin. Something inside is moving.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "use": "lines",
+      "lines": [
+        "A raccoon pops out, nods respectfully, and goes back in.",
+        "3arbagy? Is that you in there?"
+      ]
+    },
+    {
+      "id": "skyline-poster",
+      "name": "Skyline poster",
+      "kind": "wall",
+      "price": 30,
+      "shop": "furniture",
+      "set": "condo",
+      "art": "skyline-poster",
+      "description": "The Toronto skyline at night, tower and all.",
+      "widthTiles": 2,
+      "heightTiles": 1
+    },
+    {
+      "id": "brick-wall",
+      "name": "Brick wallpaper",
+      "kind": "wallpaper",
+      "price": 50,
+      "shop": "furniture",
+      "set": "condo",
+      "art": "brick-wall",
+      "description": "Exposed brick. Very Liberty Village.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "concrete-floor",
+      "name": "Polished concrete",
+      "kind": "floor",
+      "price": 50,
+      "shop": "furniture",
+      "set": "condo",
+      "art": "concrete-floor",
+      "description": "Cool grey and very loft.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "kbbq-grill-table",
+      "name": "KBBQ grill table",
+      "kind": "furniture",
+      "price": 75,
+      "shop": "furniture",
+      "art": "kbbq-grill-table",
+      "description": "Your own tabletop grill, side dishes included. KBBQ at home!",
+      "widthTiles": 2,
+      "heightTiles": 1,
+      "use": "lines",
+      "lines": [
+        "Zu grills some meat at home. The smoke alarm screams. Worth it.",
+        "Momo would say flip it now. Zu flips it now."
+      ]
+    },
+    {
+      "id": "cat-tree",
+      "name": "Cat tree",
+      "kind": "furniture",
+      "price": 45,
+      "shop": "furniture",
+      "set": "cat",
+      "art": "cat-tree",
+      "description": "A tall perch with a sleepy orange cat on top.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "use": "lines",
+      "lines": [
+        "The orange cat on top looks a lot like Zicco. He purrs at you."
+      ]
+    },
+    {
+      "id": "cat-bed",
+      "name": "Cat bed",
+      "kind": "furniture",
+      "price": 25,
+      "shop": "furniture",
+      "set": "cat",
+      "art": "cat-bed",
+      "description": "A pink cat bed. Mehalabeya moved in on her own.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "use": "lines",
+      "lines": [
+        "Mehalabeya opens one eye, blinks slowly, and goes back to sleep."
+      ]
+    },
+    {
+      "id": "scratching-post",
+      "name": "Scratching post",
+      "kind": "furniture",
+      "price": 20,
+      "shop": "furniture",
+      "set": "cat",
+      "art": "scratching-post",
+      "description": "Saves the sofa. Mostly.",
+      "widthTiles": 1,
+      "heightTiles": 1
+    },
+    {
+      "id": "cat-cushion",
+      "name": "Cat cushion",
+      "kind": "furniture",
+      "price": 18,
+      "shop": "furniture",
+      "set": "cat",
+      "art": "cat-cushion",
+      "description": "A cushion shaped like an orange cat face.",
+      "widthTiles": 1,
+      "heightTiles": 1
+    },
+    {
+      "id": "fish-rug",
+      "name": "Fish rug",
+      "kind": "rug",
+      "price": 20,
+      "shop": "furniture",
+      "set": "cat",
+      "art": "fish-rug",
+      "description": "A rug shaped like a fish. The cats are obsessed.",
+      "widthTiles": 2,
+      "heightTiles": 1
+    },
+    {
+      "id": "cat-poster",
+      "name": "Cat poster",
+      "kind": "wall",
+      "price": 15,
+      "shop": "furniture",
+      "set": "cat",
+      "art": "cat-poster",
+      "description": "A grey cat, looking unimpressed. Iconic.",
+      "widthTiles": 1,
+      "heightTiles": 1
+    },
+    {
+      "id": "paw-wallpaper",
+      "name": "Paw print wallpaper",
+      "kind": "wallpaper",
+      "price": 40,
+      "shop": "furniture",
+      "set": "cat",
+      "art": "paw-wall",
+      "description": "Little pink paw prints everywhere.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "pink-carpet",
+      "name": "Pink carpet",
+      "kind": "floor",
+      "price": 40,
+      "shop": "furniture",
+      "set": "cat",
+      "art": "pink-carpet",
+      "description": "Fluffy pink carpet. Cats approve.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "sakura-wall",
+      "name": "Sakura wallpaper",
+      "kind": "wallpaper",
+      "price": 45,
+      "shop": "furniture",
+      "art": "sakura-wall",
+      "description": "Cherry blossoms, like High Park in May.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "checker-floor",
+      "name": "Checker floor",
+      "kind": "floor",
+      "price": 40,
+      "shop": "furniture",
+      "art": "checker-floor",
+      "description": "Black and white tiles, diner style.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "lavender-wall",
+      "name": "Lavender wallpaper",
+      "kind": "wallpaper",
+      "price": 45,
+      "shop": "furniture",
+      "art": "lavender-wall",
+      "description": "Soft lavender with faint stripes.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "purple-damask-wall",
+      "name": "Purple damask wallpaper",
+      "kind": "wallpaper",
+      "price": 55,
+      "shop": "furniture",
+      "art": "purple-damask-wall",
+      "description": "Royal purple with a little damask flourish.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "lilac-stripe-wall",
+      "name": "Lilac stripe wallpaper",
+      "kind": "wallpaper",
+      "price": 45,
+      "shop": "furniture",
+      "art": "lilac-stripe-wall",
+      "description": "Wide lilac stripes. Very dreamy.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "bubblegum-wall",
+      "name": "Bubblegum pink wallpaper",
+      "kind": "wallpaper",
+      "price": 45,
+      "shop": "furniture",
+      "art": "bubblegum-wall",
+      "description": "Pink. Just pink. Perfect.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "pink-gingham-wall",
+      "name": "Pink gingham wallpaper",
+      "kind": "wallpaper",
+      "price": 50,
+      "shop": "furniture",
+      "art": "pink-gingham-wall",
+      "description": "Pink gingham, like a picnic blanket on the wall.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "pink-heart-wall",
+      "name": "Pink heart wallpaper",
+      "kind": "wallpaper",
+      "price": 50,
+      "shop": "furniture",
+      "art": "pink-heart-wall",
+      "description": "Little pink hearts all over.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "mint-dot-wall",
+      "name": "Mint polka dot wallpaper",
+      "kind": "wallpaper",
+      "price": 45,
+      "shop": "furniture",
+      "art": "mint-dot-wall",
+      "description": "Mint green with soft polka dots.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "midnight-purple-wall",
+      "name": "Midnight purple wallpaper",
+      "kind": "wallpaper",
+      "price": 55,
+      "shop": "furniture",
+      "art": "midnight-purple-wall",
+      "description": "Deep purple with a crescent moon and stars.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "purple-carpet",
+      "name": "Purple carpet",
+      "kind": "floor",
+      "price": 45,
+      "shop": "furniture",
+      "art": "purple-carpet",
+      "description": "Fluffy purple carpet.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "lavender-tile-floor",
+      "name": "Lavender tiles",
+      "kind": "floor",
+      "price": 50,
+      "shop": "furniture",
+      "art": "lavender-tile-floor",
+      "description": "Lavender and white checker tiles.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "pink-tile-floor",
+      "name": "Pink tiles",
+      "kind": "floor",
+      "price": 50,
+      "shop": "furniture",
+      "art": "pink-tile-floor",
+      "description": "Pink and white checker tiles.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "rose-wood-floor",
+      "name": "Rose wood floor",
+      "kind": "floor",
+      "price": 55,
+      "shop": "furniture",
+      "art": "rose-wood-floor",
+      "description": "Pink-washed wooden planks.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "marble-floor",
+      "name": "White marble",
+      "kind": "floor",
+      "price": 60,
+      "shop": "furniture",
+      "art": "marble-floor",
+      "description": "Shiny white marble. Very Yorkville.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "walnut-floor",
+      "name": "Walnut floor",
+      "kind": "floor",
+      "price": 50,
+      "shop": "furniture",
+      "art": "walnut-floor",
+      "description": "Dark walnut planks.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "blue-mosaic-floor",
+      "name": "Blue mosaic tiles",
+      "kind": "floor",
+      "price": 50,
+      "shop": "furniture",
+      "art": "blue-mosaic-floor",
+      "description": "Little blue mosaic tiles, like a seaside café.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "pink-curtains",
+      "name": "Pink curtains",
+      "kind": "wall",
+      "price": 35,
+      "shop": "furniture",
+      "art": "pink-curtains",
+      "description": "A window with soft pink curtains.",
+      "widthTiles": 2,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "polka-curtains",
+      "name": "Polka dot curtains",
+      "kind": "wall",
+      "price": 40,
+      "shop": "furniture",
+      "art": "polka-curtains",
+      "description": "A window with pink polka dot curtains.",
+      "widthTiles": 2,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "purple-curtains",
+      "name": "Purple curtains",
+      "kind": "wall",
+      "price": 35,
+      "shop": "furniture",
+      "art": "purple-curtains",
+      "description": "A window with rich purple curtains.",
+      "widthTiles": 2,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "lavender-sheer-curtains",
+      "name": "Lavender sheer curtains",
+      "kind": "wall",
+      "price": 40,
+      "shop": "furniture",
+      "art": "lavender-sheer-curtains",
+      "description": "A window with light, see-through lavender curtains.",
+      "widthTiles": 2,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "lace-curtains",
+      "name": "White lace curtains",
+      "kind": "wall",
+      "price": 40,
+      "shop": "furniture",
+      "art": "lace-curtains",
+      "description": "A window with delicate white lace.",
+      "widthTiles": 2,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "sage-curtains",
+      "name": "Sage curtains",
+      "kind": "wall",
+      "price": 35,
+      "shop": "furniture",
+      "art": "sage-curtains",
+      "description": "A window with calm sage-green curtains.",
+      "widthTiles": 2,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "starry-curtains",
+      "name": "Starry night curtains",
+      "kind": "wall",
+      "price": 40,
+      "shop": "furniture",
+      "art": "starry-curtains",
+      "description": "A window with navy curtains dotted with stars.",
+      "widthTiles": 2,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "gaming-desk",
+      "name": "Gaming desk",
+      "kind": "furniture",
+      "price": 70,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "gaming-desk",
+      "description": "An RGB gaming setup. Every light is a different colour. It runs the typing test too.",
+      "widthTiles": 2,
+      "heightTiles": 1,
+      "use": "computer"
+    },
+    {
+      "id": "figure-shelf",
+      "name": "Figure shelf",
+      "kind": "furniture",
+      "price": 50,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "figure-shelf",
+      "description": "A glass case of tiny anime figures. Do not touch.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "use": "lines",
+      "lines": [
+        "Every figure is dusted and posed perfectly. Respect."
+      ]
+    },
+    {
+      "id": "beanbag",
+      "name": "Beanbag",
+      "kind": "furniture",
+      "price": 30,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "beanbag",
+      "description": "A purple beanbag for twelve-episode binges.",
+      "widthTiles": 1,
+      "heightTiles": 1
+    },
+    {
+      "id": "mecha-model",
+      "name": "Mecha model",
+      "kind": "furniture",
+      "price": 40,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "mecha-model",
+      "description": "A hand-built mecha model kit. Only 400 pieces.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "use": "lines",
+      "lines": [
+        "The mecha strikes a heroic pose. Zu does too."
+      ]
+    },
+    {
+      "id": "neko-ninja-plush",
+      "name": "Neko ninja plush",
+      "kind": "furniture",
+      "price": 25,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "neko-ninja-plush",
+      "description": "A ninja cat plush. Silent. Deadly. Soft.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "use": "lines",
+      "lines": [
+        "The neko ninja plush watches the door. Zu is safe."
+      ]
+    },
+    {
+      "id": "onigiri-plush",
+      "name": "Onigiri plush",
+      "kind": "furniture",
+      "price": 20,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "onigiri-plush",
+      "description": "A smiling rice ball plush with blushy cheeks.",
+      "widthTiles": 1,
+      "heightTiles": 1
+    },
+    {
+      "id": "ramen-lamp",
+      "name": "Ramen lamp",
+      "kind": "furniture",
+      "price": 35,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "ramen-lamp",
+      "description": "A glowing bowl of ramen, chopsticks and all.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "glow": true
+    },
+    {
+      "id": "manga-stack",
+      "name": "Manga stack",
+      "kind": "furniture",
+      "price": 15,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "manga-stack",
+      "description": "A stack of manga volumes, all read twice.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "use": "lines",
+      "lines": [
+        "Zu rereads volume 3. The best volume, obviously."
+      ]
+    },
+    {
+      "id": "one-pickle-poster",
+      "name": "\"One Pickle\" poster",
+      "kind": "wall",
+      "price": 18,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "one-pickle-poster",
+      "description": "A pickle in a straw hat sets sail for the Grand Brine.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "use": "lines",
+      "lines": [
+        "\"I'm gonna be King of the Pickles!\""
+      ]
+    },
+    {
+      "id": "jiu-jitsu-kaisen-poster",
+      "name": "\"Jiu-Jitsu Kaisen\" poster",
+      "kind": "wall",
+      "price": 18,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "jiu-jitsu-kaisen-poster",
+      "description": "A jackal sorcerer. The jackal at the MMA gym says it is about him.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "use": "lines",
+      "lines": [
+        "Domain expansion: Scarborough."
+      ]
+    },
+    {
+      "id": "attack-on-scarborough-poster",
+      "name": "\"Attack on Scarborough\" poster",
+      "kind": "wall",
+      "price": 18,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "attack-on-scarborough-poster",
+      "description": "A giant TTC bus looms over the towers. Season four is late, like the bus.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "use": "lines",
+      "lines": [
+        "\"Dedicate your hearts!\" to waiting for the 54 Lawrence East."
+      ]
+    },
+    {
+      "id": "squirrel-slayer-poster",
+      "name": "\"Squirrel Slayer\" poster",
+      "kind": "wall",
+      "price": 18,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "squirrel-slayer-poster",
+      "description": "A farmer swears revenge on the FAT squirrels.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "use": "lines",
+      "lines": [
+        "Total Concentration: Matcha Breathing."
+      ]
+    },
+    {
+      "id": "my-neighbour-pumpkin-poster",
+      "name": "\"My Neighbour Ms. Pumpkin\" poster",
+      "kind": "wall",
+      "price": 18,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "my-neighbour-pumpkin-poster",
+      "description": "A guinea pig waits at the streetcar stop in the rain.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "use": "lines",
+      "lines": [
+        "Ms. Pumpkin says she has never waited for anything. Rent, however, waits for no one."
+      ]
+    },
+    {
+      "id": "starry-wall",
+      "name": "Starry night wallpaper",
+      "kind": "wallpaper",
+      "price": 45,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "starry-wall",
+      "description": "Tiny stars on deep blue.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "neon-floor",
+      "name": "Neon grid floor",
+      "kind": "floor",
+      "price": 45,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "neon-floor",
+      "description": "Glowing grid lines. Very cyber.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "hunter-license",
+      "name": "Hunter License (framed)",
+      "kind": "wall",
+      "price": 80,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "hunter-license",
+      "description": "The Hunter Association license. Free travel, top-secret archives, and bragging rights.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "use": "lines",
+      "lines": [
+        "Zu admires her Hunter License. Passed the exam, survived Hisoka. Hunter Zu has a nice ring to it."
+      ]
+    },
+    {
+      "id": "gon-fishing-rod",
+      "name": "Gon's fishing rod",
+      "kind": "furniture",
+      "price": 45,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "gon-fishing-rod",
+      "description": "A rod from Whale Island, perfect for catching the lake lord. Comes with a folded green jacket.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "killua-skateboard",
+      "name": "Killua's skateboard",
+      "kind": "furniture",
+      "price": 40,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "killua-skateboard",
+      "description": "A blue deck with a lightning bolt. Zero assassin vibes, promise.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "death-note",
+      "name": "Death Note",
+      "kind": "furniture",
+      "price": 75,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "death-note",
+      "description": "A black notebook with DEATH NOTE in white on the cover. Handle with care.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "use": "lines",
+      "lines": [
+        "Zu opens the Death Note. \"The human whose name is written in this note shall die.\"",
+        "She writes \"Mondays\" instead and closes it quickly."
+      ]
+    },
+    {
+      "id": "ryuk-apple-crate",
+      "name": "Ryuk's apple crate",
+      "kind": "furniture",
+      "price": 25,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "ryuk-apple-crate",
+      "description": "A crate of shiny red apples. A certain shinigami will be by for them.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "all-might-poster",
+      "name": "All Might poster",
+      "kind": "wall",
+      "price": 22,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "all-might-poster",
+      "description": "The Symbol of Peace, mid-smile. PLUS ULTRA!",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "use": "lines",
+      "lines": [
+        "\"It's fine now. Why? Because I am here!\" Zu feels a little braver."
+      ]
+    },
+    {
+      "id": "deku-sneakers",
+      "name": "Deku's red sneakers",
+      "kind": "furniture",
+      "price": 35,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "deku-sneakers",
+      "description": "Big chunky red sneakers, a hero's favourite pair.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "bond-plush",
+      "name": "Bond plush",
+      "kind": "furniture",
+      "price": 40,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "bond-plush",
+      "description": "The Forger family's big fluffy dog. He has seen the future, and it is naps.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "use": "lines",
+      "lines": [
+        "Bond plush gets a big hug. Boff!"
+      ]
+    },
+    {
+      "id": "anya-peanuts",
+      "name": "Anya's peanut jar",
+      "kind": "furniture",
+      "price": 20,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "anya-peanuts",
+      "description": "A jar of peanuts. Anya likes peanuts. Waku waku!",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "use": "lines",
+      "lines": [
+        "Zu sneaks a peanut. Heh."
+      ]
+    },
+    {
+      "id": "anya-poster",
+      "name": "Anya poster",
+      "kind": "wall",
+      "price": 22,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "anya-poster",
+      "description": "Anya Forger with her little horn clips, plotting something.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "pikachu-plush",
+      "name": "Pikachu plush",
+      "kind": "furniture",
+      "price": 40,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "pikachu-plush",
+      "description": "A round yellow plush with red cheeks. Pika pika!",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "use": "lines",
+      "lines": [
+        "Pikachu plush gets a squeeze. Pika!"
+      ]
+    },
+    {
+      "id": "poke-ball-rug",
+      "name": "Poké Ball rug",
+      "kind": "rug",
+      "price": 45,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "poke-ball-rug",
+      "description": "A giant Poké Ball rug. Gotta nap on them all.",
+      "widthTiles": 2,
+      "heightTiles": 2,
+      "always": true
+    },
+    {
+      "id": "kirby-plush",
+      "name": "Kirby plush",
+      "kind": "furniture",
+      "price": 40,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "kirby-plush",
+      "description": "A soft pink puffball with red feet. Poyo!",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "use": "lines",
+      "lines": [
+        "Kirby plush looks hungry. Kirby plush always looks hungry."
+      ]
+    },
+    {
+      "id": "peach-parasol",
+      "name": "Princess Peach's parasol",
+      "kind": "furniture",
+      "price": 45,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "peach-parasol",
+      "description": "A frilly pink parasol fit for the Mushroom Kingdom.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "super-mushroom-lamp",
+      "name": "Super Mushroom lamp",
+      "kind": "furniture",
+      "price": 35,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "super-mushroom-lamp",
+      "description": "A red-and-white mushroom that glows at night. Power-up!",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "glow": true
+    },
+    {
+      "id": "peach-crown",
+      "name": "Peach's crown",
+      "kind": "accessory",
+      "price": 35,
+      "shop": "anime",
+      "art": "peach-crown",
+      "description": "A golden crown with a blue gem. Royalty, obviously.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "komi-notebook",
+      "name": "Komi's notebook",
+      "kind": "furniture",
+      "price": 30,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "komi-notebook",
+      "description": "An open notebook on a little desk. The first line says: I want to make 100 friends.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "use": "lines",
+      "lines": [
+        "Zu writes in the notebook: \"Friend count: everyone in Zutopia.\""
+      ]
+    },
+    {
+      "id": "komi-poster",
+      "name": "Komi poster",
+      "kind": "wall",
+      "price": 22,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "komi-poster",
+      "description": "Komi-san, calm and quietly trying her best.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "rishe-herb-planter",
+      "name": "Rishe's herb garden",
+      "kind": "furniture",
+      "price": 50,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "rishe-herb-planter",
+      "description": "A planter of herbs and little flowers, straight from the 7th Time Loop. Medicine, tea, and maybe a potion.",
+      "widthTiles": 2,
+      "heightTiles": 1,
+      "always": true,
+      "use": "lines",
+      "lines": [
+        "Zu waters the herbs. In some life, she was definitely an alchemist."
+      ]
+    },
+    {
+      "id": "seventh-loop-poster",
+      "name": "7th Time Loop poster",
+      "kind": "wall",
+      "price": 22,
+      "shop": "anime",
+      "set": "otaku",
+      "art": "seventh-loop-poster",
+      "description": "The villainess on her seventh life, finally enjoying a carefree one.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "starter-bookshelf",
+      "name": "Bookshelf",
+      "kind": "furniture",
+      "price": 0,
+      "set": "cozy",
+      "art": "starter-bookshelf",
+      "description": "Your reading nook bookshelf. It stays in your room.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "keep": true,
+      "use": "bookshelf"
+    },
+    {
+      "id": "starter-wardrobe",
+      "name": "Wardrobe",
+      "kind": "furniture",
+      "price": 0,
+      "art": "starter-wardrobe",
+      "description": "All your clothes. It stays in your room.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "keep": true,
+      "use": "wardrobe"
+    },
+    {
+      "id": "home-computer",
+      "name": "Computer",
+      "kind": "furniture",
+      "price": 0,
+      "art": "home-computer",
+      "description": "Your desk and computer. It runs the typing test and mental math, and it stays in your room.",
+      "widthTiles": 2,
+      "heightTiles": 1,
+      "keep": true,
+      "use": "computer"
+    },
+    {
+      "id": "chunky-green-sweater",
+      "name": "Chunky green sweater",
+      "kind": "top",
+      "price": 35,
+      "shop": "threads",
+      "art": "chunky-green-sweater",
+      "description": "Zu's signature sweater, cozy and green.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "matcha-hoodie",
+      "name": "Matcha hoodie",
+      "kind": "top",
+      "price": 40,
+      "shop": "threads",
+      "art": "matcha-hoodie",
+      "description": "Pastel matcha green with drawstrings. Perfect for the four days of spring Toronto gets.",
+      "widthTiles": 1,
+      "heightTiles": 1
+    },
+    {
+      "id": "six-jersey",
+      "name": "6ix jersey",
+      "kind": "top",
+      "price": 45,
+      "shop": "threads",
+      "art": "six-jersey",
+      "description": "A big red jersey with a 6. We the North-ish.",
+      "widthTiles": 1,
+      "heightTiles": 1
+    },
+    {
+      "id": "sailor-top",
+      "name": "Sailor top",
+      "kind": "top",
+      "price": 40,
+      "shop": "threads",
+      "art": "sailor-top",
+      "description": "A navy collar and a red bow. Very magical girl.",
+      "widthTiles": 1,
+      "heightTiles": 1
+    },
+    {
+      "id": "emo-hoodie",
+      "name": "Emo hoodie",
+      "kind": "top",
+      "price": 40,
+      "shop": "threads",
+      "art": "emo-hoodie",
+      "description": "All black. Zub's influence is showing.",
+      "widthTiles": 1,
+      "heightTiles": 1
+    },
+    {
+      "id": "cat-sweater",
+      "name": "Cat sweater",
+      "kind": "top",
+      "price": 50,
+      "shop": "threads",
+      "art": "cat-sweater",
+      "description": "A grey sweater with a little orange cat on it.",
+      "widthTiles": 1,
+      "heightTiles": 1
+    },
+    {
+      "id": "pink-cardigan",
+      "name": "Pink cardigan",
+      "kind": "top",
+      "price": 40,
+      "shop": "threads",
+      "art": "pink-cardigan",
+      "description": "Soft pink with pearly buttons.",
+      "widthTiles": 1,
+      "heightTiles": 1
+    },
+    {
+      "id": "maroon-hoodie",
+      "name": "Maroon hoodie",
+      "kind": "top",
+      "price": 45,
+      "shop": "threads",
+      "art": "maroon-hoodie",
+      "description": "Deep maroon with white drawstrings. Peak Kings Park picnic wear.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "red-graphic-tee",
+      "name": "Red graphic tee",
+      "kind": "top",
+      "price": 35,
+      "shop": "threads",
+      "art": "red-graphic-tee",
+      "description": "A bright red tee with a bold white print, for the one week Scarbz hits 30.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "black-velvet-top",
+      "name": "Black velvet top",
+      "kind": "top",
+      "price": 50,
+      "shop": "threads",
+      "art": "black-velvet-top",
+      "description": "Soft black velvet for a fancy night out.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "pink-frosh-tee",
+      "name": "Pink frosh tee",
+      "kind": "top",
+      "price": 35,
+      "shop": "threads",
+      "art": "pink-frosh-tee",
+      "description": "Pink with a purple print. Frosh week energy, forever.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "navy-varsity-jacket",
+      "name": "Navy varsity jacket",
+      "kind": "top",
+      "price": 60,
+      "shop": "threads",
+      "art": "navy-varsity-jacket",
+      "description": "Navy with white snaps and ribbing, and a red letter on the chest.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "lilac-puffer-vest",
+      "name": "Lilac puffer vest",
+      "kind": "top",
+      "price": 55,
+      "shop": "threads",
+      "art": "lilac-puffer-vest",
+      "description": "A puffy lilac vest over a white long-sleeve, for \"8 degrees but sunny\" days.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "black-puffer-jacket",
+      "name": "Black puffer jacket",
+      "kind": "top",
+      "price": 60,
+      "shop": "threads",
+      "art": "black-puffer-jacket",
+      "description": "Toronto winter armour. Zipped all the way up.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "cream-cardigan",
+      "name": "Cream cable cardigan",
+      "kind": "top",
+      "price": 50,
+      "shop": "threads",
+      "art": "cream-cardigan",
+      "description": "Chunky cable knit over a black top. KBBQ-approved.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "plaid-flannel",
+      "name": "Plaid flannel shirt",
+      "kind": "top",
+      "price": 40,
+      "shop": "threads",
+      "art": "plaid-flannel",
+      "description": "Grey and beige plaid. For Toronto Octobers: 20 degrees on Monday, snow on Tuesday.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "white-blouse",
+      "name": "White blouse",
+      "kind": "top",
+      "price": 40,
+      "shop": "threads",
+      "art": "white-blouse",
+      "description": "Light, flowy, and very summer. Toronto summer is 35 and humid, so pray.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "teddy-coat",
+      "name": "Teddy coat",
+      "kind": "top",
+      "price": 60,
+      "shop": "threads",
+      "art": "teddy-coat",
+      "description": "A fluffy caramel teddy coat. Basically a wearable plush, for when it's -20 with the windchill.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "sage-puffer",
+      "name": "Sage puffer jacket",
+      "kind": "top",
+      "price": 55,
+      "shop": "threads",
+      "art": "sage-puffer",
+      "description": "A soft sage-green puffer for when the wind off the lake hits different.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "lab-coat",
+      "name": "Lab coat",
+      "kind": "top",
+      "price": 45,
+      "shop": "threads",
+      "art": "lab-coat",
+      "description": "For engineering labs. Safety first, slay second.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "black-blazer",
+      "name": "Black blazer",
+      "kind": "top",
+      "price": 55,
+      "shop": "threads",
+      "art": "black-blazer",
+      "description": "A sharp blazer, white shirt, and a lanyard. Networking-event ready.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "powder-blue-sweater",
+      "name": "Powder blue sweater",
+      "kind": "top",
+      "price": 40,
+      "shop": "threads",
+      "art": "powder-blue-sweater",
+      "description": "A soft, fitted powder-blue knit for grey Scarborough mornings.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "light-jeans",
+      "name": "Light jeans",
+      "kind": "bottom",
+      "price": 30,
+      "shop": "threads",
+      "art": "light-jeans",
+      "description": "Light-blue jeans, perfectly broken in.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "black-jeans",
+      "name": "Black jeans",
+      "kind": "bottom",
+      "price": 30,
+      "shop": "threads",
+      "art": "black-jeans",
+      "description": "Skinny black jeans. Goes with everything.",
+      "widthTiles": 1,
+      "heightTiles": 1
+    },
+    {
+      "id": "cargo-pants",
+      "name": "Cargo pants",
+      "kind": "bottom",
+      "price": 30,
+      "shop": "threads",
+      "art": "cargo-pants",
+      "description": "So many pockets. Snack storage.",
+      "widthTiles": 1,
+      "heightTiles": 1
+    },
+    {
+      "id": "plaid-skirt",
+      "name": "Plaid skirt",
+      "kind": "bottom",
+      "price": 35,
+      "shop": "threads",
+      "art": "plaid-skirt",
+      "description": "Red plaid. Dark academia, but make it Toronto.",
+      "widthTiles": 1,
+      "heightTiles": 1
+    },
+    {
+      "id": "pink-skirt",
+      "name": "Pink skirt",
+      "kind": "bottom",
+      "price": 35,
+      "shop": "threads",
+      "art": "pink-skirt",
+      "description": "A twirly pink skirt. Hold it down at Kennedy Station, that wind is violent.",
+      "widthTiles": 1,
+      "heightTiles": 1
+    },
+    {
+      "id": "silver-sequin-skirt",
+      "name": "Silver sequin skirt",
+      "kind": "bottom",
+      "price": 50,
+      "shop": "threads",
+      "art": "silver-sequin-skirt",
+      "description": "Sparkly silver sequins. It catches every light in the room.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "olive-cargo-pants",
+      "name": "Olive cargo pants",
+      "kind": "bottom",
+      "price": 40,
+      "shop": "threads",
+      "art": "olive-cargo-pants",
+      "description": "Baggy olive cargos with plenty of pockets for the gloves you'll lose by January.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "black-dress-pants",
+      "name": "Black dress pants",
+      "kind": "bottom",
+      "price": 40,
+      "shop": "threads",
+      "art": "black-dress-pants",
+      "description": "Crisp black trousers that go with the blazer.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "toque",
+      "name": "Toque",
+      "kind": "accessory",
+      "price": 20,
+      "shop": "threads",
+      "art": "toque",
+      "description": "A red-and-white toque. Very Canadian, eh. Mandatory from November to April.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "cat-ears",
+      "name": "Cat ears",
+      "kind": "accessory",
+      "price": 25,
+      "shop": "threads",
+      "art": "cat-ears",
+      "description": "A cat-ear headband, matched to her hair.",
+      "widthTiles": 1,
+      "heightTiles": 1
+    },
+    {
+      "id": "bucket-hat",
+      "name": "Bucket hat",
+      "kind": "accessory",
+      "price": 25,
+      "shop": "threads",
+      "art": "bucket-hat",
+      "description": "A yellow bucket hat for Trinity Bellwoods picnics.",
+      "widthTiles": 1,
+      "heightTiles": 1
+    },
+    {
+      "id": "round-glasses",
+      "name": "Round glasses",
+      "kind": "accessory",
+      "price": 20,
+      "shop": "threads",
+      "art": "round-glasses",
+      "description": "Round glasses for maximum reading vibes.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "hair-bow",
+      "name": "Hair bow",
+      "kind": "accessory",
+      "price": 15,
+      "shop": "threads",
+      "art": "hair-bow",
+      "description": "A big pink bow.",
+      "widthTiles": 1,
+      "heightTiles": 1
+    },
+    {
+      "id": "frosh-headband",
+      "name": "Frosh headband",
+      "kind": "accessory",
+      "price": 20,
+      "shop": "threads",
+      "art": "frosh-headband",
+      "description": "A green headband with white letters. School spirit!",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "earmuffs",
+      "name": "Fluffy earmuffs",
+      "kind": "accessory",
+      "price": 25,
+      "shop": "threads",
+      "art": "earmuffs",
+      "description": "White and fluffy. Ears stay toasty while you wait 20 minutes for the bus.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "clear-glasses",
+      "name": "Clear-frame glasses",
+      "kind": "accessory",
+      "price": 25,
+      "shop": "threads",
+      "art": "clear-glasses",
+      "description": "Big clear frames. Her everyday look.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "pearl-necklace",
+      "name": "Pearl necklace",
+      "kind": "accessory",
+      "price": 30,
+      "shop": "threads",
+      "art": "pearl-necklace",
+      "description": "A dainty string of pearls.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "white-ankle-warmers",
+      "name": "White ankle warmers",
+      "kind": "accessory",
+      "price": 30,
+      "shop": "threads",
+      "art": "white-ankle-warmers",
+      "description": "Slouchy knit ankle warmers in white. Ballet-core.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "black-ankle-warmers",
+      "name": "Black ankle warmers",
+      "kind": "accessory",
+      "price": 30,
+      "shop": "threads",
+      "art": "black-ankle-warmers",
+      "description": "Slouchy knit ankle warmers in black. Still ballet-core, just moodier.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "table-cloth",
+      "name": "Table cloth",
+      "kind": "top",
+      "price": 45,
+      "shop": "threads",
+      "art": "table-cloth",
+      "description": "A blue blouse with a white triangle from the neck to the belly. Don't let anyone set dinner on it.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "westwood-orb-earrings",
+      "name": "Vivienne Westwood orb earrings",
+      "kind": "accessory",
+      "price": 120,
+      "shop": "threads",
+      "art": "orb-earrings",
+      "description": "Little silver orbs with a pearl drop. Very London, very her.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "westwood-gold-earrings",
+      "name": "Vivienne Westwood gold earrings",
+      "kind": "accessory",
+      "price": 130,
+      "shop": "threads",
+      "art": "gold-orb-earrings",
+      "description": "Gold orbs with a little blue enamel. The orb is the moment.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "westwood-pearl-choker",
+      "name": "Vivienne Westwood pearl choker",
+      "kind": "accessory",
+      "price": 150,
+      "shop": "threads",
+      "art": "orb-pearl-choker",
+      "description": "The iconic pearl choker with the orb in the middle.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "gold-hoops",
+      "name": "Gold hoops",
+      "kind": "accessory",
+      "price": 40,
+      "shop": "threads",
+      "art": "gold-hoops",
+      "description": "Big gold hoop earrings. Main character energy.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "stacked-rings",
+      "name": "Stacked rings",
+      "kind": "accessory",
+      "price": 35,
+      "shop": "threads",
+      "art": "stacked-rings",
+      "description": "Gold and silver rings on both hands.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "red-plaid-scarf",
+      "name": "Red plaid scarf",
+      "kind": "accessory",
+      "price": 35,
+      "shop": "threads",
+      "art": "red-plaid-scarf",
+      "description": "A chunky plaid scarf for Toronto winters.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "cream-knit-scarf",
+      "name": "Cream knit scarf",
+      "kind": "accessory",
+      "price": 35,
+      "shop": "threads",
+      "art": "cream-knit-scarf",
+      "description": "Soft, cream, and cozy. Pairs with matcha and slush season.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "pink-silk-scarf",
+      "name": "Pink silk neck scarf",
+      "kind": "accessory",
+      "price": 30,
+      "shop": "threads",
+      "art": "pink-silk-scarf",
+      "description": "A little pink silk scarf tied at the neck.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "black-crossbody",
+      "name": "Black crossbody bag",
+      "kind": "accessory",
+      "price": 50,
+      "shop": "threads",
+      "art": "black-crossbody",
+      "description": "A sleek black side bag with a gold clasp.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "tan-sidebag",
+      "name": "Tan side bag",
+      "kind": "accessory",
+      "price": 45,
+      "shop": "threads",
+      "art": "tan-sidebag",
+      "description": "A tan leather side bag for books and snacks.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "matcha-backpack",
+      "name": "Matcha backpack",
+      "kind": "accessory",
+      "price": 55,
+      "shop": "threads",
+      "art": "matcha-backpack",
+      "description": "A green backpack that fits a laptop and three granola bars.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "lilac-backpack",
+      "name": "Lilac mini backpack",
+      "kind": "accessory",
+      "price": 50,
+      "shop": "threads",
+      "art": "lilac-backpack",
+      "description": "A tiny lilac backpack. Fits one lip gloss. Worth it.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "headphones",
+      "name": "Headphones",
+      "kind": "accessory",
+      "price": 30,
+      "shop": "anime",
+      "art": "headphones",
+      "description": "Purple headphones for lo-fi beats to study to.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "ketchup-chips",
+      "name": "Ketchup chips",
+      "kind": "snack",
+      "price": 4,
+      "shop": "snacks",
+      "art": "ketchup-chips",
+      "description": "Red fingers, no regrets. The most Canadian chip.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "lines": [
+        "Zu crunches a bag of ketchup chips. Her fingers are red now. Worth it."
+      ],
+      "boostSeconds": 45
+    },
+    {
+      "id": "butter-tart",
+      "name": "Butter tart",
+      "kind": "snack",
+      "price": 5,
+      "shop": "snacks",
+      "art": "butter-tart",
+      "description": "Gooey, sweet, and very Ontario. Raisins optional (no raisins).",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "lines": [
+        "Zu eats a butter tart. No raisins. Correct."
+      ],
+      "boostSeconds": 45
+    },
+    {
+      "id": "nanaimo-bar",
+      "name": "Nanaimo bar",
+      "kind": "snack",
+      "price": 5,
+      "shop": "snacks",
+      "art": "nanaimo-bar",
+      "description": "Three layers of pure sugar.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "lines": [
+        "Three layers of sugar. Zu can hear colours now."
+      ],
+      "boostSeconds": 60
+    },
+    {
+      "id": "beaver-tail",
+      "name": "BeaverTail",
+      "kind": "snack",
+      "price": 8,
+      "shop": "snacks",
+      "art": "beaver-tail",
+      "description": "A flat fried pastry with cinnamon sugar. Bombaclat gets a discount.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "lines": [
+        "Zu eats a BeaverTail. Bombaclat the beaver looks the other way."
+      ],
+      "boostSeconds": 75
+    },
+    {
+      "id": "matcha-wafer",
+      "name": "Matcha wafer",
+      "kind": "snack",
+      "price": 4,
+      "shop": "snacks",
+      "art": "matcha-wafer",
+      "description": "A crispy matcha wafer bar.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "lines": [
+        "Matcha, but crunchy. Zu approves."
+      ],
+      "boostSeconds": 45
+    },
+    {
+      "id": "choco-sticks",
+      "name": "Choco sticks",
+      "kind": "snack",
+      "price": 3,
+      "shop": "snacks",
+      "art": "choco-sticks",
+      "description": "Biscuit sticks dipped in chocolate.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "lines": [
+        "Zu eats the whole box. One at a time. Very fast."
+      ],
+      "boostSeconds": 30
+    },
+    {
+      "id": "miss-vickies-jalapeno",
+      "name": "Miss Vickie's Jalapeño",
+      "kind": "snack",
+      "price": 5,
+      "shop": "snacks",
+      "art": "chips-jalapeno",
+      "description": "Kettle chips with a kick, in the green bag.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "lines": [
+        "Zu crunches the jalapeño chips. Spicy. Her eyes water a little. Worth it."
+      ],
+      "boostSeconds": 45
+    },
+    {
+      "id": "miss-vickies-salt-vinegar",
+      "name": "Miss Vickie's Sea Salt & Malt Vinegar",
+      "kind": "snack",
+      "price": 5,
+      "shop": "snacks",
+      "art": "chips-salt-vinegar",
+      "description": "Kettle chips that bite back, in the blue bag.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "lines": [
+        "Salt and vinegar: Zu's mouth puckers so hard she speeds up."
+      ],
+      "boostSeconds": 45
+    },
+    {
+      "id": "sour-patch-kids",
+      "name": "Sour Patch Kids",
+      "kind": "snack",
+      "price": 4,
+      "shop": "snacks",
+      "art": "sour-candy",
+      "description": "First they're sour, then they're sweet.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "lines": [
+        "Sour, then sweet. Zu eats the whole bag one kid at a time."
+      ],
+      "boostSeconds": 45
+    },
+    {
+      "id": "hersheys-white",
+      "name": "Hershey's white chocolate",
+      "kind": "snack",
+      "price": 4,
+      "shop": "snacks",
+      "art": "white-chocolate",
+      "description": "A creamy white chocolate bar.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "lines": [
+        "Zu snaps off a row of white chocolate. Creamy. Dangerous."
+      ],
+      "boostSeconds": 45
+    },
+    {
+      "id": "madegood-bar",
+      "name": "MadeGood granola bar",
+      "kind": "snack",
+      "price": 3,
+      "shop": "snacks",
+      "art": "granola-madegood",
+      "description": "A soft little granola bar. Nut-free and school-safe.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "lines": [
+        "Zu eats a MadeGood bar. Responsible snacking, for once."
+      ],
+      "boostSeconds": 30
+    },
+    {
+      "id": "kashi-bar",
+      "name": "Kashi honey almond granola bar",
+      "kind": "snack",
+      "price": 3,
+      "shop": "snacks",
+      "art": "granola-kashi",
+      "description": "Crunchy honey and almond granola.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "lines": [
+        "Crunchy honey almond goodness. Zu is basically a health influencer now."
+      ],
+      "boostSeconds": 30
+    },
+    {
+      "id": "lactaid",
+      "name": "Lactaid pills",
+      "kind": "medicine",
+      "price": 50,
+      "shop": "well",
+      "art": "pills-lactose",
+      "description": "For when the matcha latte has real milk.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "lines": [
+        "Zu takes a Lactaid. Bring on the dairy. Her brain feels quick and her legs feel quicker."
+      ],
+      "effect": "sharp"
+    },
+    {
+      "id": "gravol",
+      "name": "Gravol",
+      "kind": "medicine",
+      "price": 55,
+      "shop": "well",
+      "art": "pills-nausea",
+      "description": "No more TTC motion sickness.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "lines": [
+        "Zu takes a Gravol. The world stops spinning, and somehow her math gets better."
+      ],
+      "effect": "sharp"
+    },
+    {
+      "id": "advil-liquigels",
+      "name": "Advil Liqui-Gels",
+      "kind": "medicine",
+      "price": 60,
+      "shop": "well",
+      "art": "pills-liquigel",
+      "description": "Liquid-gel tablets for headaches.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "lines": [
+        "Zu takes an Advil Liqui-Gel. Headache: gone. Typing fingers: warmed up."
+      ],
+      "effect": "sharp"
+    },
+    {
+      "id": "nyquil",
+      "name": "NyQuil Sleep Medicine",
+      "kind": "medicine",
+      "price": 50,
+      "shop": "well",
+      "art": "sleep-syrup",
+      "description": "Goes straight to the farm squirrels: they sleep for a day per bottle. Up to three at once.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true,
+      "lines": [
+        "The squirrels get a spoonful each. Snoring commences."
+      ],
+      "effect": "squirrel-sleep"
+    },
+    {
+      "id": "hair-natural",
+      "name": "Natural brown, blonde ends",
+      "kind": "hair-color",
+      "price": 15,
+      "shop": "salon",
+      "art": "natural",
+      "description": "Back to her own colour: brown with blonde ends.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "hair-jet-black",
+      "name": "Jet black",
+      "kind": "hair-color",
+      "price": 40,
+      "shop": "salon",
+      "art": "jet-black",
+      "description": "Glossy, inky black.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "hair-honey-blonde",
+      "name": "Honey blonde",
+      "kind": "hair-color",
+      "price": 40,
+      "shop": "salon",
+      "art": "honey-blonde",
+      "description": "Warm blonde all over.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "hair-cherry-red",
+      "name": "Cherry red",
+      "kind": "hair-color",
+      "price": 45,
+      "shop": "salon",
+      "art": "cherry-red",
+      "description": "Bold red. Very anime protagonist.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "hair-pastel-pink",
+      "name": "Pastel pink",
+      "kind": "hair-color",
+      "price": 45,
+      "shop": "salon",
+      "art": "pastel-pink",
+      "description": "Soft pink, like a strawberry milk.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "hair-lavender",
+      "name": "Lavender",
+      "kind": "hair-color",
+      "price": 45,
+      "shop": "salon",
+      "art": "lavender",
+      "description": "Dreamy pale purple.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "hair-matcha-ends",
+      "name": "Matcha ends",
+      "kind": "hair-color",
+      "price": 45,
+      "shop": "salon",
+      "art": "matcha-ends",
+      "description": "Her brown hair, dipped in matcha green at the ends.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "hair-blue-black",
+      "name": "Blue-black with blue ends",
+      "kind": "hair-color",
+      "price": 45,
+      "shop": "salon",
+      "art": "blue-black",
+      "description": "Dark at the roots, electric blue at the tips.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "hair-copper",
+      "name": "Copper",
+      "kind": "hair-color",
+      "price": 40,
+      "shop": "salon",
+      "art": "copper",
+      "description": "A warm copper glow.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "style-long",
+      "name": "Long layers",
+      "kind": "hair-style",
+      "price": 15,
+      "shop": "salon",
+      "art": "long",
+      "description": "Her own long hair, down past the shoulders.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "style-bob",
+      "name": "Chin-length bob",
+      "kind": "hair-style",
+      "price": 30,
+      "shop": "salon",
+      "art": "bob",
+      "description": "A sharp bob at the chin.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "style-ponytail",
+      "name": "Ponytail",
+      "kind": "hair-style",
+      "price": 25,
+      "shop": "salon",
+      "art": "ponytail",
+      "description": "A high ponytail with a pink tie.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "style-space-buns",
+      "name": "Space buns",
+      "kind": "hair-style",
+      "price": 30,
+      "shop": "salon",
+      "art": "space-buns",
+      "description": "Two buns on top. Cute and chaotic.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "style-top-knot",
+      "name": "Top knot",
+      "kind": "hair-style",
+      "price": 25,
+      "shop": "salon",
+      "art": "top-knot",
+      "description": "One bun right on top. Study mode.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "style-braids",
+      "name": "Two braids",
+      "kind": "hair-style",
+      "price": 30,
+      "shop": "salon",
+      "art": "braids",
+      "description": "Two long braids over the shoulders.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "makeup-none",
+      "name": "No makeup",
+      "kind": "makeup",
+      "price": 10,
+      "shop": "salon",
+      "art": "none",
+      "description": "A clean, fresh face.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "makeup-pink-shadow",
+      "name": "Pink eyeshadow",
+      "kind": "makeup",
+      "price": 20,
+      "shop": "salon",
+      "art": "pink-shadow",
+      "description": "Soft pink on the lids.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "makeup-smoky-purple",
+      "name": "Smoky purple eyes",
+      "kind": "makeup",
+      "price": 25,
+      "shop": "salon",
+      "art": "smoky-purple",
+      "description": "A smoky purple, a little dramatic.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "makeup-gold-shimmer",
+      "name": "Gold shimmer",
+      "kind": "makeup",
+      "price": 25,
+      "shop": "salon",
+      "art": "gold-shimmer",
+      "description": "Gold on the lids that catches the light.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "makeup-winged-liner",
+      "name": "Winged liner",
+      "kind": "makeup",
+      "price": 20,
+      "shop": "salon",
+      "art": "winged-liner",
+      "description": "A sharp black wing. Could cut glass.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "makeup-glitter",
+      "name": "Glitter",
+      "kind": "makeup",
+      "price": 25,
+      "shop": "salon",
+      "art": "glitter",
+      "description": "Sparkles under the eyes, pink on the lids.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    },
+    {
+      "id": "makeup-cherry-lip",
+      "name": "Cherry lip and blush",
+      "kind": "makeup",
+      "price": 20,
+      "shop": "salon",
+      "art": "cherry-lip",
+      "description": "A red lip and rosy cheeks.",
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "always": true
+    }
+  ],
+  "homeRating": {
+    "thresholds": [
+      300,
+      700,
+      1100,
+      1600,
+      2200
+    ],
+    "comments": [
+      "Wheek. It's a room. It has walls. That's about it, tenant.",
+      "Cute start. A little bare, but the rent's still due, ahlie.",
+      "Now we're cooking. This place has personality, fam.",
+      "Ooh, very nice. I might raise the rent. Kidding. Mostly.",
+      "Wheek! This is a five-star stay. Excellent use of 384 square pixels.",
+      "LEGENDARY. Ms. Pumpkin is framing a photo of this room for her office."
+    ]
+  }
+}

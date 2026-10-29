@@ -1,0 +1,1151 @@
+[
+  {
+    "id": "home-street",
+    "name": "Home Street",
+    "widthTiles": 40,
+    "heightTiles": 22,
+    "tileSize": 16,
+    "groundSpriteKey": "town-ground",
+    "spawns": [
+      {
+        "id": "start",
+        "tileX": 5,
+        "tileY": 15
+      },
+      {
+        "id": "from-market",
+        "tileX": 36,
+        "tileY": 15
+      },
+      {
+        "id": "from-farm",
+        "tileX": 2,
+        "tileY": 15
+      },
+      {
+        "id": "from-home",
+        "tileX": 6,
+        "tileY": 9
+      }
+    ],
+    "exits": [
+      {
+        "id": "to-farm",
+        "tileX": 0,
+        "tileY": 14,
+        "widthTiles": 1,
+        "heightTiles": 3,
+        "targetAreaId": "matcha-farm",
+        "targetSpawnId": "from-home"
+      },
+      {
+        "id": "to-market",
+        "tileX": 39,
+        "tileY": 14,
+        "widthTiles": 1,
+        "heightTiles": 3,
+        "targetAreaId": "market-strip",
+        "targetSpawnId": "from-home"
+      }
+    ],
+    "collisions": [
+      {
+        "tileX": 0,
+        "tileY": 0,
+        "widthTiles": 40,
+        "heightTiles": 2,
+        "look": "trees"
+      },
+      {
+        "tileX": 0,
+        "tileY": 19,
+        "widthTiles": 40,
+        "heightTiles": 3,
+        "look": "trees"
+      },
+      {
+        "tileX": 2,
+        "tileY": 3,
+        "widthTiles": 8,
+        "heightTiles": 5,
+        "look": "building"
+      },
+      {
+        "tileX": 14,
+        "tileY": 2,
+        "widthTiles": 11,
+        "heightTiles": 6,
+        "look": "building"
+      },
+      {
+        "tileX": 28,
+        "tileY": 3,
+        "widthTiles": 8,
+        "heightTiles": 5,
+        "look": "building"
+      },
+      {
+        "tileX": 12,
+        "tileY": 17,
+        "widthTiles": 6,
+        "heightTiles": 1,
+        "look": "fence"
+      }
+    ],
+    "decor": [
+      {
+        "tileX": 0,
+        "tileY": 13,
+        "widthTiles": 40,
+        "heightTiles": 4,
+        "look": "path"
+      },
+      {
+        "tileX": 6,
+        "tileY": 8,
+        "widthTiles": 1,
+        "heightTiles": 5,
+        "look": "path"
+      },
+      {
+        "tileX": 19,
+        "tileY": 8,
+        "widthTiles": 1,
+        "heightTiles": 5,
+        "look": "path"
+      },
+      {
+        "tileX": 32,
+        "tileY": 8,
+        "widthTiles": 1,
+        "heightTiles": 5,
+        "look": "path"
+      },
+      {
+        "tileX": 2,
+        "tileY": 9,
+        "widthTiles": 3,
+        "heightTiles": 2,
+        "look": "flowers"
+      },
+      {
+        "tileX": 22,
+        "tileY": 9,
+        "widthTiles": 3,
+        "heightTiles": 2,
+        "look": "flowers"
+      }
+    ],
+    "interactions": [
+      {
+        "id": "home-door",
+        "kind": "door",
+        "tileX": 6,
+        "tileY": 8,
+        "label": "Home",
+        "targetId": "zu-home",
+        "targetSpawnId": "from-street"
+      },
+      {
+        "id": "home-mailbox",
+        "kind": "mailbox",
+        "tileX": 9,
+        "tileY": 9,
+        "label": "Mailbox"
+      },
+      {
+        "id": "museum-door",
+        "kind": "museum",
+        "tileX": 19,
+        "tileY": 8,
+        "label": "Museum",
+        "dialogue": [
+          "A sign on the door: CLOSED FOR RENOVATION.",
+          "Through the window, Jiji is hanging empty frames and humming. Check back soon!"
+        ]
+      },
+      {
+        "id": "landlord-talk",
+        "kind": "villager",
+        "tileX": 30,
+        "tileY": 9,
+        "label": "Talk",
+        "targetId": "landlord"
+      },
+      {
+        "id": "neighbour-talk",
+        "kind": "villager",
+        "tileX": 11,
+        "tileY": 10,
+        "label": "Talk",
+        "targetId": "neighbour"
+      },
+      {
+        "id": "curator-talk",
+        "kind": "villager",
+        "tileX": 16,
+        "tileY": 10,
+        "label": "Talk",
+        "targetId": "curator"
+      }
+    ]
+  },
+  {
+    "id": "market-strip",
+    "name": "Kensington & Koreatown",
+    "widthTiles": 40,
+    "heightTiles": 22,
+    "tileSize": 16,
+    "groundSpriteKey": "market-ground",
+    "spawns": [
+      {
+        "id": "from-home",
+        "tileX": 3,
+        "tileY": 15
+      },
+      {
+        "id": "from-park",
+        "tileX": 36,
+        "tileY": 15
+      },
+      {
+        "id": "from-don-hills",
+        "tileX": 34,
+        "tileY": 9
+      }
+    ],
+    "exits": [
+      {
+        "id": "to-home",
+        "tileX": 0,
+        "tileY": 14,
+        "widthTiles": 1,
+        "heightTiles": 3,
+        "targetAreaId": "home-street",
+        "targetSpawnId": "from-market"
+      },
+      {
+        "id": "to-park",
+        "tileX": 39,
+        "tileY": 14,
+        "widthTiles": 1,
+        "heightTiles": 3,
+        "targetAreaId": "high-park",
+        "targetSpawnId": "from-market"
+      }
+    ],
+    "collisions": [
+      {
+        "tileX": 0,
+        "tileY": 0,
+        "widthTiles": 40,
+        "heightTiles": 2,
+        "look": "trees"
+      },
+      {
+        "tileX": 0,
+        "tileY": 21,
+        "widthTiles": 40,
+        "heightTiles": 1,
+        "look": "fence"
+      },
+      {
+        "tileX": 1,
+        "tileY": 3,
+        "widthTiles": 8,
+        "heightTiles": 5,
+        "look": "building"
+      },
+      {
+        "tileX": 11,
+        "tileY": 3,
+        "widthTiles": 8,
+        "heightTiles": 5,
+        "look": "building"
+      },
+      {
+        "tileX": 21,
+        "tileY": 3,
+        "widthTiles": 9,
+        "heightTiles": 5,
+        "look": "building"
+      },
+      {
+        "tileX": 32,
+        "tileY": 3,
+        "widthTiles": 6,
+        "heightTiles": 5,
+        "look": "building"
+      },
+      {
+        "tileX": 5,
+        "tileY": 18,
+        "widthTiles": 4,
+        "heightTiles": 2,
+        "look": "stall"
+      },
+      {
+        "tileX": 17,
+        "tileY": 18,
+        "widthTiles": 4,
+        "heightTiles": 2,
+        "look": "stall"
+      },
+      {
+        "tileX": 29,
+        "tileY": 18,
+        "widthTiles": 4,
+        "heightTiles": 2,
+        "look": "stall"
+      }
+    ],
+    "decor": [
+      {
+        "tileX": 0,
+        "tileY": 13,
+        "widthTiles": 40,
+        "heightTiles": 4,
+        "look": "path"
+      },
+      {
+        "tileX": 5,
+        "tileY": 8,
+        "widthTiles": 1,
+        "heightTiles": 5,
+        "look": "path"
+      },
+      {
+        "tileX": 15,
+        "tileY": 8,
+        "widthTiles": 1,
+        "heightTiles": 5,
+        "look": "path"
+      },
+      {
+        "tileX": 25,
+        "tileY": 8,
+        "widthTiles": 1,
+        "heightTiles": 5,
+        "look": "path"
+      },
+      {
+        "tileX": 34,
+        "tileY": 8,
+        "widthTiles": 1,
+        "heightTiles": 5,
+        "look": "path"
+      }
+    ],
+    "interactions": [
+      {
+        "id": "matcha-cafe",
+        "kind": "activity",
+        "tileX": 5,
+        "tileY": 8,
+        "label": "Zuzu's Matchacha",
+        "targetId": "matcha"
+      },
+      {
+        "id": "mma-gym",
+        "kind": "activity",
+        "tileX": 15,
+        "tileY": 8,
+        "label": "MMA Gym",
+        "targetId": "mma"
+      },
+      {
+        "id": "kbbq-restaurant",
+        "kind": "party",
+        "tileX": 25,
+        "tileY": 8,
+        "label": "Seoul Food KBBQ",
+        "dialogue": [
+          "A note on the door: \"Big table RESERVED for a very special party. Ask Ms. Pumpkin.\"",
+          "Something smells amazing in there. Whatever it is, you want it."
+        ]
+      },
+      {
+        "id": "barista-talk",
+        "kind": "villager",
+        "tileX": 3,
+        "tileY": 10,
+        "label": "Talk",
+        "targetId": "barista"
+      },
+      {
+        "id": "gym-coach-talk",
+        "kind": "villager",
+        "tileX": 13,
+        "tileY": 10,
+        "label": "Talk",
+        "targetId": "gym-coach"
+      },
+      {
+        "id": "kbbq-host-talk",
+        "kind": "villager",
+        "tileX": 27,
+        "tileY": 10,
+        "label": "Talk",
+        "targetId": "kbbq-host"
+      },
+      {
+        "id": "don-hills-door",
+        "kind": "door",
+        "tileX": 34,
+        "tileY": 8,
+        "label": "Don Hills Mall",
+        "targetId": "don-hills",
+        "targetSpawnId": "from-market"
+      }
+    ]
+  },
+  {
+    "id": "high-park",
+    "name": "Kings Park",
+    "widthTiles": 40,
+    "heightTiles": 22,
+    "tileSize": 16,
+    "groundSpriteKey": "park-ground",
+    "spawns": [
+      {
+        "id": "from-market",
+        "tileX": 3,
+        "tileY": 15
+      }
+    ],
+    "exits": [
+      {
+        "id": "to-market",
+        "tileX": 0,
+        "tileY": 14,
+        "widthTiles": 1,
+        "heightTiles": 3,
+        "targetAreaId": "market-strip",
+        "targetSpawnId": "from-park"
+      }
+    ],
+    "collisions": [
+      {
+        "tileX": 0,
+        "tileY": 0,
+        "widthTiles": 40,
+        "heightTiles": 2,
+        "look": "trees"
+      },
+      {
+        "tileX": 0,
+        "tileY": 19,
+        "widthTiles": 40,
+        "heightTiles": 3,
+        "look": "trees"
+      },
+      {
+        "tileX": 38,
+        "tileY": 2,
+        "widthTiles": 2,
+        "heightTiles": 17,
+        "look": "trees"
+      },
+      {
+        "tileX": 25,
+        "tileY": 3,
+        "widthTiles": 10,
+        "heightTiles": 5,
+        "look": "water"
+      },
+      {
+        "tileX": 2,
+        "tileY": 3,
+        "widthTiles": 4,
+        "heightTiles": 3,
+        "look": "trees"
+      },
+      {
+        "tileX": 33,
+        "tileY": 10,
+        "widthTiles": 3,
+        "heightTiles": 3,
+        "look": "trees"
+      },
+      {
+        "tileX": 15,
+        "tileY": 9,
+        "widthTiles": 1,
+        "heightTiles": 1,
+        "look": "hoop"
+      },
+      {
+        "tileX": 21,
+        "tileY": 9,
+        "widthTiles": 1,
+        "heightTiles": 1,
+        "look": "hoop"
+      }
+    ],
+    "decor": [
+      {
+        "tileX": 0,
+        "tileY": 14,
+        "widthTiles": 22,
+        "heightTiles": 3,
+        "look": "path"
+      },
+      {
+        "tileX": 6,
+        "tileY": 8,
+        "widthTiles": 6,
+        "heightTiles": 4,
+        "look": "sand"
+      },
+      {
+        "tileX": 15,
+        "tileY": 4,
+        "widthTiles": 4,
+        "heightTiles": 2,
+        "look": "flowers"
+      },
+      {
+        "tileX": 24,
+        "tileY": 16,
+        "widthTiles": 5,
+        "heightTiles": 2,
+        "look": "flowers"
+      },
+      {
+        "tileX": 15,
+        "tileY": 7,
+        "widthTiles": 7,
+        "heightTiles": 5,
+        "look": "court"
+      }
+    ],
+    "interactions": [
+      {
+        "id": "gymnastics-lawn",
+        "kind": "activity",
+        "tileX": 8,
+        "tileY": 10,
+        "label": "Gymnastics Lawn",
+        "targetId": "gymnastics"
+      },
+      {
+        "id": "park-cat-orange",
+        "kind": "cat",
+        "tileX": 29,
+        "tileY": 12,
+        "label": "Pet Zicco",
+        "dialogue": [
+          "Zicco, the orange cat, leans into the pets and headbutts your hand for more.",
+          "Purrrrrrrrr."
+        ],
+        "petReaction": "hearts"
+      },
+      {
+        "id": "park-cat-tabby",
+        "kind": "cat",
+        "tileX": 18,
+        "tileY": 17,
+        "label": "Pet Mehalabeya",
+        "dialogue": [
+          "Mehalabeya, the grey tabby, allows exactly one pet, then blinks slowly at you.",
+          "In cat, that means: \"You may stay.\""
+        ],
+        "spriteKey": "cat-tabby",
+        "petReaction": "slow-blink"
+      },
+      {
+        "id": "park-coach-talk",
+        "kind": "villager",
+        "tileX": 12,
+        "tileY": 12,
+        "label": "Talk",
+        "targetId": "park-coach"
+      },
+      {
+        "id": "sohid-talk",
+        "kind": "villager",
+        "tileX": 7,
+        "tileY": 15,
+        "label": "Talk",
+        "targetId": "sohid"
+      },
+      {
+        "id": "basketball-court",
+        "kind": "court",
+        "tileX": 18,
+        "tileY": 13,
+        "label": "Basketball Court"
+      }
+    ]
+  },
+  {
+    "id": "matcha-farm",
+    "name": "Matcha Farm",
+    "widthTiles": 40,
+    "heightTiles": 22,
+    "tileSize": 16,
+    "groundSpriteKey": "park-ground",
+    "spawns": [
+      {
+        "id": "from-home",
+        "tileX": 36,
+        "tileY": 15
+      }
+    ],
+    "exits": [
+      {
+        "id": "to-home",
+        "tileX": 39,
+        "tileY": 14,
+        "widthTiles": 1,
+        "heightTiles": 3,
+        "targetAreaId": "home-street",
+        "targetSpawnId": "from-farm"
+      }
+    ],
+    "collisions": [
+      {
+        "tileX": 0,
+        "tileY": 0,
+        "widthTiles": 40,
+        "heightTiles": 2,
+        "look": "trees"
+      },
+      {
+        "tileX": 0,
+        "tileY": 19,
+        "widthTiles": 40,
+        "heightTiles": 3,
+        "look": "trees"
+      },
+      {
+        "tileX": 0,
+        "tileY": 2,
+        "widthTiles": 2,
+        "heightTiles": 17,
+        "look": "trees"
+      },
+      {
+        "tileX": 29,
+        "tileY": 3,
+        "widthTiles": 8,
+        "heightTiles": 5,
+        "look": "building"
+      },
+      {
+        "tileX": 19,
+        "tileY": 3,
+        "widthTiles": 8,
+        "heightTiles": 1,
+        "look": "fence"
+      },
+      {
+        "tileX": 19,
+        "tileY": 4,
+        "widthTiles": 1,
+        "heightTiles": 4,
+        "look": "fence"
+      },
+      {
+        "tileX": 26,
+        "tileY": 4,
+        "widthTiles": 1,
+        "heightTiles": 4,
+        "look": "fence"
+      }
+    ],
+    "decor": [
+      {
+        "tileX": 2,
+        "tileY": 13,
+        "widthTiles": 38,
+        "heightTiles": 4,
+        "look": "path"
+      },
+      {
+        "tileX": 7,
+        "tileY": 8,
+        "widthTiles": 2,
+        "heightTiles": 5,
+        "look": "path"
+      },
+      {
+        "tileX": 22,
+        "tileY": 8,
+        "widthTiles": 2,
+        "heightTiles": 5,
+        "look": "path"
+      },
+      {
+        "tileX": 32,
+        "tileY": 8,
+        "widthTiles": 1,
+        "heightTiles": 5,
+        "look": "path"
+      },
+      {
+        "tileX": 3,
+        "tileY": 17,
+        "widthTiles": 6,
+        "heightTiles": 2,
+        "look": "flowers"
+      },
+      {
+        "tileX": 30,
+        "tileY": 17,
+        "widthTiles": 5,
+        "heightTiles": 2,
+        "look": "flowers"
+      }
+    ],
+    "fields": [
+      {
+        "id": "scarbz-field",
+        "crop": "scarbz",
+        "tileX": 4,
+        "tileY": 5,
+        "widthTiles": 8,
+        "heightTiles": 3
+      },
+      {
+        "id": "uji-field",
+        "crop": "uji",
+        "tileX": 21,
+        "tileY": 4,
+        "widthTiles": 4,
+        "heightTiles": 3
+      },
+      {
+        "id": "east-ghetto-plot",
+        "crop": "scarbz",
+        "tileX": 12,
+        "tileY": 5,
+        "widthTiles": 6,
+        "heightTiles": 3,
+        "sale": {
+          "price": 250,
+          "name": "East Ghetto plot"
+        }
+      },
+      {
+        "id": "back-forty-plot",
+        "crop": "scarbz",
+        "tileX": 9,
+        "tileY": 9,
+        "widthTiles": 9,
+        "heightTiles": 3,
+        "sale": {
+          "price": 400,
+          "name": "The Back Forty"
+        }
+      },
+      {
+        "id": "uji-terrace-plot",
+        "crop": "uji",
+        "tileX": 25,
+        "tileY": 9,
+        "widthTiles": 4,
+        "heightTiles": 3,
+        "sale": {
+          "price": 600,
+          "name": "Uji Terrace"
+        }
+      }
+    ],
+    "interactions": [
+      {
+        "id": "farm-shed",
+        "kind": "shop",
+        "tileX": 32,
+        "tileY": 8,
+        "label": "Farm shed",
+        "dialogue": [
+          "A note on the shed door: \"Walk through the rows to pick ripe matcha.\"",
+          "\"Ghetto matcha grows back in about three hours. Uji matcha is fancy and slow: it ripens once a day, by 6 a.m.\"",
+          "\"If a squirrel is sitting on a bush, it stops growing. Shoo it away (E). Do not ask what it is doing there.\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zu-home",
+    "name": "Zu's Home",
+    "widthTiles": 20,
+    "heightTiles": 11,
+    "tileSize": 32,
+    "groundSpriteKey": "home-floor",
+    "indoor": true,
+    "room": {
+      "tileX": 4,
+      "tileY": 3,
+      "widthTiles": 12,
+      "heightTiles": 7
+    },
+    "spawns": [
+      {
+        "id": "from-street",
+        "tileX": 9,
+        "tileY": 9
+      }
+    ],
+    "exits": [
+      {
+        "id": "to-street",
+        "tileX": 9,
+        "tileY": 10,
+        "widthTiles": 2,
+        "heightTiles": 1,
+        "targetAreaId": "home-street",
+        "targetSpawnId": "from-home"
+      }
+    ],
+    "collisions": [
+      {
+        "tileX": 0,
+        "tileY": 0,
+        "widthTiles": 4,
+        "heightTiles": 11,
+        "look": "void"
+      },
+      {
+        "tileX": 16,
+        "tileY": 0,
+        "widthTiles": 4,
+        "heightTiles": 11,
+        "look": "void"
+      },
+      {
+        "tileX": 4,
+        "tileY": 0,
+        "widthTiles": 12,
+        "heightTiles": 1,
+        "look": "void"
+      },
+      {
+        "tileX": 4,
+        "tileY": 1,
+        "widthTiles": 12,
+        "heightTiles": 2,
+        "look": "wallpaper"
+      },
+      {
+        "tileX": 4,
+        "tileY": 10,
+        "widthTiles": 5,
+        "heightTiles": 1,
+        "look": "void"
+      },
+      {
+        "tileX": 11,
+        "tileY": 10,
+        "widthTiles": 5,
+        "heightTiles": 1,
+        "look": "void"
+      }
+    ],
+    "decor": [
+      {
+        "tileX": 9,
+        "tileY": 9,
+        "widthTiles": 2,
+        "heightTiles": 1,
+        "look": "doormat"
+      }
+    ],
+    "interactions": []
+  },
+  {
+    "id": "don-hills",
+    "name": "Don Hills Mall",
+    "widthTiles": 20,
+    "heightTiles": 11,
+    "tileSize": 32,
+    "groundSpriteKey": "mall-floor",
+    "indoor": true,
+    "spawns": [
+      {
+        "id": "from-market",
+        "tileX": 9,
+        "tileY": 9
+      }
+    ],
+    "exits": [
+      {
+        "id": "to-market",
+        "tileX": 9,
+        "tileY": 10,
+        "widthTiles": 2,
+        "heightTiles": 1,
+        "targetAreaId": "market-strip",
+        "targetSpawnId": "from-don-hills"
+      }
+    ],
+    "collisions": [
+      {
+        "tileX": 0,
+        "tileY": 0,
+        "widthTiles": 20,
+        "heightTiles": 1,
+        "look": "mall-wall"
+      },
+      {
+        "tileX": 1,
+        "tileY": 1,
+        "widthTiles": 4,
+        "heightTiles": 1,
+        "look": "shelf-furniture"
+      },
+      {
+        "tileX": 5,
+        "tileY": 1,
+        "widthTiles": 4,
+        "heightTiles": 1,
+        "look": "shelf-clothes"
+      },
+      {
+        "tileX": 9,
+        "tileY": 1,
+        "widthTiles": 2,
+        "heightTiles": 3,
+        "look": "mall-wall"
+      },
+      {
+        "tileX": 11,
+        "tileY": 1,
+        "widthTiles": 4,
+        "heightTiles": 1,
+        "look": "shelf-anime"
+      },
+      {
+        "tileX": 15,
+        "tileY": 1,
+        "widthTiles": 4,
+        "heightTiles": 1,
+        "look": "shelf-snacks"
+      },
+      {
+        "tileX": 1,
+        "tileY": 3,
+        "widthTiles": 8,
+        "heightTiles": 1,
+        "look": "counter"
+      },
+      {
+        "tileX": 11,
+        "tileY": 3,
+        "widthTiles": 8,
+        "heightTiles": 1,
+        "look": "counter"
+      },
+      {
+        "tileX": 0,
+        "tileY": 1,
+        "widthTiles": 1,
+        "heightTiles": 10,
+        "look": "mall-wall"
+      },
+      {
+        "tileX": 19,
+        "tileY": 1,
+        "widthTiles": 1,
+        "heightTiles": 10,
+        "look": "mall-wall"
+      },
+      {
+        "tileX": 1,
+        "tileY": 10,
+        "widthTiles": 8,
+        "heightTiles": 1,
+        "look": "mall-wall"
+      },
+      {
+        "tileX": 11,
+        "tileY": 10,
+        "widthTiles": 8,
+        "heightTiles": 1,
+        "look": "mall-wall"
+      },
+      {
+        "tileX": 9,
+        "tileY": 5,
+        "widthTiles": 2,
+        "heightTiles": 2,
+        "look": "fountain"
+      },
+      {
+        "tileX": 5,
+        "tileY": 7,
+        "widthTiles": 2,
+        "heightTiles": 1,
+        "look": "bench"
+      },
+      {
+        "tileX": 13,
+        "tileY": 7,
+        "widthTiles": 2,
+        "heightTiles": 1,
+        "look": "bench"
+      },
+      {
+        "tileX": 1,
+        "tileY": 9,
+        "widthTiles": 1,
+        "heightTiles": 1,
+        "look": "planter"
+      },
+      {
+        "tileX": 18,
+        "tileY": 9,
+        "widthTiles": 1,
+        "heightTiles": 1,
+        "look": "planter"
+      },
+      {
+        "tileX": 2,
+        "tileY": 5,
+        "widthTiles": 1,
+        "heightTiles": 3,
+        "look": "counter-salon"
+      },
+      {
+        "tileX": 17,
+        "tileY": 5,
+        "widthTiles": 1,
+        "heightTiles": 3,
+        "look": "counter-pharmacy"
+      },
+      {
+        "tileX": 1,
+        "tileY": 4,
+        "widthTiles": 1,
+        "heightTiles": 2,
+        "look": "shelf-salon"
+      },
+      {
+        "tileX": 1,
+        "tileY": 7,
+        "widthTiles": 1,
+        "heightTiles": 2,
+        "look": "shelf-salon"
+      },
+      {
+        "tileX": 18,
+        "tileY": 4,
+        "widthTiles": 1,
+        "heightTiles": 5,
+        "look": "shelf-pharmacy"
+      }
+    ],
+    "decor": [
+      {
+        "tileX": 9,
+        "tileY": 9,
+        "widthTiles": 2,
+        "heightTiles": 1,
+        "look": "doormat"
+      }
+    ],
+    "interactions": [
+      {
+        "id": "furniture-counter",
+        "kind": "store",
+        "tileX": 2,
+        "tileY": 4,
+        "label": "Bombaclat's Home Goods",
+        "targetId": "furniture"
+      },
+      {
+        "id": "threads-counter",
+        "kind": "store",
+        "tileX": 6,
+        "tileY": 4,
+        "label": "Hazel's Threads",
+        "targetId": "threads"
+      },
+      {
+        "id": "anime-counter",
+        "kind": "store",
+        "tileX": 13,
+        "tileY": 4,
+        "label": "Parmeet's Anime Den",
+        "targetId": "anime"
+      },
+      {
+        "id": "snacks-counter",
+        "kind": "store",
+        "tileX": 17,
+        "tileY": 4,
+        "label": "Shooters Drug Mart",
+        "targetId": "snacks"
+      },
+      {
+        "id": "well-counter",
+        "kind": "store",
+        "tileX": 16,
+        "tileY": 6,
+        "label": "The Well (pharmacy)",
+        "targetId": "well"
+      },
+      {
+        "id": "salon-counter",
+        "kind": "store",
+        "tileX": 3,
+        "tileY": 6,
+        "label": "Ramy's Salon",
+        "targetId": "salon"
+      },
+      {
+        "id": "don-hills-directory",
+        "kind": "shop",
+        "tileX": 10,
+        "tileY": 4,
+        "label": "Directory",
+        "dialogue": [
+          "DON HILLS MALL · Home Goods · Threads · Anime Den · Shooters Drug Mart · The Well · Ramy's Salon",
+          "\"Everything you need. Most of what you can afford.\"",
+          "Someone scratched \"3arbagy was here\" into the corner of the sign."
+        ]
+      },
+      {
+        "id": "furniture-keeper-talk",
+        "kind": "villager",
+        "tileX": 2,
+        "tileY": 2,
+        "label": "Talk",
+        "targetId": "furniture-keeper"
+      },
+      {
+        "id": "clothes-keeper-talk",
+        "kind": "villager",
+        "tileX": 6,
+        "tileY": 2,
+        "label": "Talk",
+        "targetId": "clothes-keeper"
+      },
+      {
+        "id": "anime-keeper-talk",
+        "kind": "villager",
+        "tileX": 13,
+        "tileY": 2,
+        "label": "Talk",
+        "targetId": "anime-keeper"
+      },
+      {
+        "id": "shopkeeper-talk",
+        "kind": "villager",
+        "tileX": 17,
+        "tileY": 2,
+        "label": "Talk",
+        "targetId": "shopkeeper"
+      },
+      {
+        "id": "salon-keeper-talk",
+        "kind": "villager",
+        "tileX": 1,
+        "tileY": 6,
+        "label": "Talk",
+        "targetId": "salon-keeper"
+      }
+    ]
+  }
+]
