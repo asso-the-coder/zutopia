@@ -12,24 +12,65 @@
   <body>
     <div id="game"></div>
     <script>
-      // Owner's visitor log (restored 2026-10-29 at the owner's request): one ping per page load on
-      // the live site only, never from local playtests. It sends no game data.
+      // Owner's visitor log (restored 2026-10-29 at the owner's request): on the live site only, never
+      // from local playtests. One ping per page load (event=load) plus one when the tab is first hidden
+      // or closed (event=leave). Since 2026-11-01 (owner request) each ping also carries a progress
+      // summary read from the existing save: party status, pickles, and activity counts. Nothing else.
       (function () {
         if (location.hostname !== 'hbdzuzu.com') return;
+        var LOG = 'https://script.google.com/macros/s/AKfycbys7ruR7jSNcX03baXS-F1VUcIyBC-ZoX7O-OzGvdOfG94vL4i0S0_EsWd5lT0X_bLYOw/exec?';
+        var where = { ip: '', city: '', region: '', country: '' };
+
+        function num(v) { return typeof v === 'number' && isFinite(v) ? v : 0; }
+        function progress() {
+          var text = null;
+          try { text = localStorage.getItem('zutopia.save') || localStorage.getItem('zutopia.save.backup'); } catch (e) {}
+          if (!text) return { party: 'no save', pickles: '', activities: '' };
+          try {
+            var s = JSON.parse(text).state || {};
+            var a = s.activities || {};
+            function done(id) { return num(a[id] && a[id].completionCount); }
+            return {
+              party: typeof s.partyStatus === 'string' ? s.partyStatus : 'unknown',
+              pickles: String(num(s.pickles)),
+              activities: 'café ' + done('matcha') + ', MMA ' + done('mma') + ', gymnastics ' + done('gymnastics') +
+                ', basketball ' + num(s.basketball && s.basketball.games) +
+                ', typing ' + num(s.typing && s.typing.tests) +
+                ', math ' + num(s.math && s.math.games)
+            };
+          } catch (e) {
+            return { party: 'unreadable save', pickles: '', activities: '' };
+          }
+        }
+        function ping(event, keepalive) {
+          var p = progress();
+          var params = new URLSearchParams({
+            event: event,
+            ip: where.ip, city: where.city, region: where.region, country: where.country,
+            ua: navigator.userAgent,
+            party: p.party, pickles: p.pickles, activities: p.activities
+          });
+          if (keepalive) {
+            try { fetch(LOG + params.toString(), { mode: 'no-cors', keepalive: true }); } catch (e) {}
+          } else {
+            var img = new Image();
+            img.src = LOG + params.toString();
+          }
+        }
+
         fetch('https://ipapi.co/json/')
           .then(function (r) { return r.json(); })
           .then(function (data) {
-            var params = new URLSearchParams({
-              ip: data.ip || '',
-              city: data.city || '',
-              region: data.region || '',
-              country: data.country_name || '',
-              ua: navigator.userAgent
-            });
-            var img = new Image();
-            img.src = 'https://script.google.com/macros/s/AKfycbys7ruR7jSNcX03baXS-F1VUcIyBC-ZoX7O-OzGvdOfG94vL4i0S0_EsWd5lT0X_bLYOw/exec?' + params.toString();
+            where = { ip: data.ip || '', city: data.city || '', region: data.region || '', country: data.country_name || '' };
           })
-          .catch(function () {});
+          .catch(function () {})
+          .then(function () {
+            ping('load', false);
+            var left = false;
+            function leave() { if (left) return; left = true; ping('leave', true); }
+            document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'hidden') leave(); });
+            window.addEventListener('pagehide', leave);
+          });
       })();
     </script>
   </body>
